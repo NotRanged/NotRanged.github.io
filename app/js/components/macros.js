@@ -80,16 +80,15 @@
           continue
         }
 
-        // Ranged edit -- Because combos are 2 actions in one, they need special code for building the macro
+        // Ranged edit -- Because combos are multiple actions in one, they need special code for building the macro
         // I've put the line building in a for loop, to deal with combos
         if (info.isCombo) {
-          infoList[0] = _actionsByName[info.comboName1];
-          infoList[1] = _actionsByName[info.comboName2];
+          for (var comboNumber = 0; comboNumber < info.comboActions.length; comboNumber++) {
+            infoList.push(_actionsByName[info.comboActions[comboNumber]]);
+          } 
+        } else {
+          infoList.push(info);
         }
-        else {
-          infoList[0] = info;
-        }
-
         for (var j = 0; j < infoList.length; j++) {
           var infoFromList = infoList[j];
           var actionFromList = infoFromList.shortName;

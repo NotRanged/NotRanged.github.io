@@ -123,8 +123,14 @@ function getComboAction(comboName) {
         returnAction = AllActions.observe;
     } else if(comboName == AllActions.focusedTouch.shortName){      // Focused Touch
         returnAction = AllActions.focusedTouch;
-    } else if(comboName == AllActions.focusedSynthesis.shortName){   // Focused Synthesis
+    } else if(comboName == AllActions.focusedSynthesis.shortName){  // Focused Synthesis
         returnAction = AllActions.focusedSynthesis;
+    } else if(comboName == AllActions.basicTouch.shortName){        // Basic Touch
+        returnAction = AllActions.basicTouch;
+    } else if(comboName == AllActions.standardTouch.shortName){     // Standard Touch
+        returnAction = AllActions.standardTouch;
+    } else if(comboName == AllActions.advancedTouch.shortName){     // Advanced Touch
+        returnAction = AllActions.advancedTouch;
     }
     return returnAction;
 }
@@ -689,11 +695,12 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         // Ranged edit -- Combo actions. Basically do everything twice over if there's a combo action. Woo.
         var actionsArray = [];
 
-        if (individual[i].isCombo){
-            actionsArray[0] = getComboAction(individual[i].comboName1);
-            actionsArray[1] = getComboAction(individual[i].comboName2);
+        if (individual[i].isCombo) {
+            for (var comboNumber = 0; comboNumber < individual[i].comboActions.length; comboNumber++) {
+                actionsArray.push(getComboAction(individual[i].comboActions[comboNumber]));
+            } 
         } else {
-            actionsArray[0] = individual[i];
+            actionsArray.push(individual[i]);
         }
         for (var j = 0; j < actionsArray.length; j++) {
             var action = actionsArray[j];
@@ -765,7 +772,6 @@ function simSynth(individual, startState, assumeSuccess, verbose, debug, logOutp
         }
 
     }
-
     // Check for feasibility violations
     var chk = s.checkViolations();
 
@@ -812,73 +818,61 @@ function MonteCarloStep(startState, action, assumeSuccess, verbose, debug, logOu
         }
     };
 
-    // Ranged edit - Combo actions please please please just fukcing worksadsd asfdfghdttsas
-    var actionsArray = [];
+    // Initialize counters
+    s.step += 1;
 
-    if (action.isCombo){
-        actionsArray[0] = getComboAction(action.comboName1);
-        actionsArray[1] = getComboAction(action.comboName2);
-    } else {
-        actionsArray[0] = action;
+    // Condition Evaluation
+    var condQualityIncreaseMultiplier = 1;
+    if (s.condition === 'Excellent') {
+        condQualityIncreaseMultiplier *= 4.0;
     }
-    for (var j = 0; j < actionsArray.length; j++) {
-        action = actionsArray[j];
-        // Initialize counters
-        s.step += 1;
-
-        // Condition Evaluation
-        var condQualityIncreaseMultiplier = 1;
-        if (s.condition === 'Excellent') {
-            condQualityIncreaseMultiplier *= 4.0;
-        }
-        else if (s.condition === 'Good' ) {
-            condQualityIncreaseMultiplier *= 1.5;
-        }
-        else if (s.condition === 'Poor' ) {
-            condQualityIncreaseMultiplier *= 0.5;
-        }
-        else {
-            condQualityIncreaseMultiplier *= 1.0;
-        }
-
-        // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
-        var r = ApplyModifiers(s, action, MonteCarloCondition);
-
-        // Success or Failure
-        var success = 0;
-        var successRand = Math.random();
-        if (0 <= successRand && successRand <= r.successProbability) {
-            success = 1;
-        }
-
-        if (assumeSuccess) {
-            success = 1;
-        }
-
-        // Calculate final gains / losses
-        var progressGain = success * r.bProgressGain;
-        if (progressGain > 0) {
-            s.reliability = s.reliability * r.successProbability;
-        }
-
-        var qualityGain = success * condQualityIncreaseMultiplier * r.bQualityGain;
-
-        // Floor gains at final stage before calculating expected value
-        progressGain = Math.floor(progressGain);
-        qualityGain = Math.floor(qualityGain);
-
-        // Occur if a dummy action
-        //==================================
-        if ((s.progressState >= s.synth.recipe.difficulty || s.durabilityState <= 0 || s.cpState < 0) && action != AllActions.dummyAction) {
-            s.wastedActions += 1;
-        }
-        // Occur if not a dummy action
-        //==================================
-        else {
-            UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, MonteCarloCondition, success);
-        }
-
+    else if (s.condition === 'Good' ) {
+        condQualityIncreaseMultiplier *= 1.5;
     }
+    else if (s.condition === 'Poor' ) {
+        condQualityIncreaseMultiplier *= 0.5;
+    }
+    else {
+        condQualityIncreaseMultiplier *= 1.0;
+    }
+
+    // Calculate Progress, Quality and Durability gains and losses under effect of modifiers
+    var r = ApplyModifiers(s, action, MonteCarloCondition);
+
+    // Success or Failure
+    var success = 0;
+    var successRand = Math.random();
+    if (0 <= successRand && successRand <= r.successProbability) {
+        success = 1;
+    }
+
+    if (assumeSuccess) {
+        success = 1;
+    }
+
+    // Calculate final gains / losses
+    var progressGain = success * r.bProgressGain;
+    if (progressGain > 0) {
+        s.reliability = s.reliability * r.successProbability;
+    }
+
+    var qualityGain = success * condQualityIncreaseMultiplier * r.bQualityGain;
+
+    // Floor gains at final stage before calculating expected value
+    progressGain = Math.floor(progressGain);
+    qualityGain = Math.floor(qualityGain);
+
+    // Occur if a dummy action
+    //==================================
+    if ((s.progressState >= s.synth.recipe.difficulty || s.durabilityState <= 0 || s.cpState < 0) && action != AllActions.dummyAction) {
+        s.wastedActions += 1;
+    }
+    // Occur if not a dummy action
+    //==================================
+    else {
+        UpdateState(s, action, progressGain, qualityGain, r.durabilityCost, r.cpCost, MonteCarloCondition, success);
+    }
+
     // Ending condition update
     if (s.condition === 'Excellent') {
         s.condition = 'Poor';
@@ -953,7 +947,6 @@ function MonteCarloSequence(individual, startState, assumeSuccess, conditionalAc
     if (individual === null || individual.length === 0) {
         return startState;
     }
-
     // Strip Tricks of the Trade from individual
     if (conditionalActionHandling === 'reposition') {
         var onExcellentOnlyActions = [];
@@ -1000,65 +993,76 @@ function MonteCarloSequence(individual, startState, assumeSuccess, conditionalAc
     states.push(s);
 
     for (i=0; i < individual.length; i++) {
-        var action = individual[i];
+        var actionsArray = [];
 
-        // Determine if action is usable
-        var usable = action.onExcellent && s.condition === 'Excellent' ||
-                     action.onGood && s.condition === 'Good' ||
-                     action.onPoor && s.condition === 'Poor' ||
-                     (!action.onExcellent && !action.onGood && !action.onPoor);
-
-        if (conditionalActionHandling === 'reposition') {
-            // Manually re-add condition dependent action when conditions are met
-            if (s.condition === 'Excellent' && s.trickUses < maxConditionUses) {
-                if (onExcellentOnlyActions.length > 0) {
-                    s = MonteCarloStep(s, onExcellentOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
-                    states.push(s);
-                }
-                else if (onGoodOrExcellentActions.length > 0) {
-                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
-                    states.push(s);
-                }
-            }
-            if (s.condition === 'Good' && s.trickUses < maxConditionUses) {
-                if (onGoodOnlyActions.length > 0) {
-                    s = MonteCarloStep(s, onGoodOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
-                    states.push(s);
-                }
-                else if (onGoodOrExcellentActions.length > 0) {
-                    s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
-                    states.push(s);
-                }
-            }
-            if (s.condition === 'Poor' && s.trickUses < maxConditionUses) {
-                if (onPoorOnlyActions.length > 0) {
-                    s = MonteCarloStep(s, onPoorOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
-                    states.push(s);
-                }
-            }
-
-            // Process the original action as another step
-            s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
-            states.push(s);
+        if (individual[i].isCombo) {
+            for (var comboNumber = 0; comboNumber < individual[i].comboActions.length; comboNumber++) {
+                actionsArray.push(getComboAction(individual[i].comboActions[comboNumber]));
+            } 
+        } else {
+            actionsArray.push(individual[i]);
         }
-        else if (conditionalActionHandling === 'skipUnusable') {
-            // If not usable, record a skipped action without progressing other status counters
-            if (!usable) {
-                s = s.clone();
-                s.action = action.shortName;
-                s.wastedActions += 1;
-                states.push(s);
-            }
-            // Otherwise, process action as normal
-            else {
+        for (var j = 0; j < actionsArray.length; j++) {
+            var action = actionsArray[j];
+
+            // Determine if action is usable
+            var usable = action.onExcellent && s.condition === 'Excellent' ||
+                        action.onGood && s.condition === 'Good' ||
+                        action.onPoor && s.condition === 'Poor' ||
+                        (!action.onExcellent && !action.onGood && !action.onPoor);
+
+            if (conditionalActionHandling === 'reposition') {
+                // Manually re-add condition dependent action when conditions are met
+                if (s.condition === 'Excellent' && s.trickUses < maxConditionUses) {
+                    if (onExcellentOnlyActions.length > 0) {
+                        s = MonteCarloStep(s, onExcellentOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                        states.push(s);
+                    }
+                    else if (onGoodOrExcellentActions.length > 0) {
+                        s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                        states.push(s);
+                    }
+                }
+                if (s.condition === 'Good' && s.trickUses < maxConditionUses) {
+                    if (onGoodOnlyActions.length > 0) {
+                        s = MonteCarloStep(s, onGoodOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                        states.push(s);
+                    }
+                    else if (onGoodOrExcellentActions.length > 0) {
+                        s = MonteCarloStep(s, onGoodOrExcellentActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                        states.push(s);
+                    }
+                }
+                if (s.condition === 'Poor' && s.trickUses < maxConditionUses) {
+                    if (onPoorOnlyActions.length > 0) {
+                        s = MonteCarloStep(s, onPoorOnlyActions.shift(), assumeSuccess, verbose, debug, logOutput);
+                        states.push(s);
+                    }
+                }
+
+                // Process the original action as another step
                 s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
                 states.push(s);
             }
-        }
-        else if (conditionalActionHandling === 'ignoreUnusable') {
-            // If not usable, skip action effect, progress other status counters
-            s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
-            states.push(s);
+            else if (conditionalActionHandling === 'skipUnusable') {
+                // If not usable, record a skipped action without progressing other status counters
+                if (!usable) {
+                    s = s.clone();
+                    s.action = action.shortName;
+                    s.wastedActions += 1;
+                    states.push(s);
+                }
+                // Otherwise, process action as normal
+                else {
+                    s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
+                    states.push(s);
+                }
+            }
+            else if (conditionalActionHandling === 'ignoreUnusable') {
+                // If not usable, skip action effect, progress other status counters
+                s = MonteCarloStep(s, action, assumeSuccess, verbose, debug, logOutput);
+                states.push(s);
+            }
         }
     }
 
@@ -1371,7 +1375,6 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     penaltyWeight = penaltyWeight!== undefined ? penaltyWeight : 10000;
 
     var startState = NewStateFromSynth(mySynth);
-
     var result = simSynth(individual, startState, false, false, false);
     var penalties = 0;
     var fitness = 0;

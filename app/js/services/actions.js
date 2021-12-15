@@ -59,6 +59,8 @@
     // Ranged edit - Combo Actions
     focusedTouchCombo: {       common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     focusedSynthesisCombo: {       common: true,         skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
+    standardTouchCombo: {       common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
+    advancedTouchCombo: {       common: true,             skillID: {"Alchemist": 0, "Armorer": 0, "Blacksmith": 0, "Carpenter": 0, "Culinarian": 0, "Goldsmith": 0, "Leatherworker": 0, "Weaver": 0} },
     
     observe: {                 common: true,             skillID: {"Alchemist": 100099, "Armorer": 100040, "Blacksmith": 100023, "Carpenter": 100010, "Culinarian": 100113, "Goldsmith": 100082, "Leatherworker": 100053, "Weaver": 100070} }
   };
@@ -142,7 +144,9 @@
     {
       name: "Combo'd Actions", actions: [
         "focusedSynthesisCombo",
-        "focusedTouchCombo"
+        "focusedTouchCombo",
+        "standardTouchCombo",
+        "advancedTouchCombo"
       ]
     },
     {
