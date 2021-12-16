@@ -11,7 +11,7 @@ var app = connect();
 app.use(morgan('dev'));
 app.use('/', serveStatic(path.join(__dirname, 'app')));
 
-const port = 8001;
+const port = 51205;
 app.listen(port);
 
 console.log('Server listening on port', port);
