@@ -26,7 +26,10 @@ def construct_recipe_json(original_recipe):
         "qualityDivider": original_recipe["RecipeLevelTable"]["QualityDivider"],
         "qualityModifier": original_recipe["RecipeLevelTable"]["QualityModifier"],
     }
-    recipe["name"]["en"] = original_recipe["Name"]
+    recipe["name"]["en"] = original_recipe["Name_en"]
+    recipe["name"]["de"] = original_recipe["Name_de"]
+    recipe["name"]["fr"] = original_recipe["Name_fr"]
+    recipe["name"]["ja"] = original_recipe["Name_ja"]
     if original_recipe["RecipeLevelTable"]["Stars"] != 0:
         recipe["stars"] = original_recipe["RecipeLevelTable"]["Stars"]
     return recipe
@@ -45,7 +48,7 @@ if __name__ == '__main__':
     # Handle the actual API calls here
     for ID in tqdm(ID_range):
         # Construct an URL to get data from for every page
-        url_call = 'https://xivapi.com/Recipe?page={0}&columns=Name,ClassJob.NameEnglish,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,RecipeLevelTable'.format(ID)
+        url_call = 'https://xivapi.com/Recipe?page={0}&columns=Name_en,Name_de,Name_fr,Name_ja,ClassJob.NameEnglish,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,RecipeLevelTable'.format(ID)
         r = requests.get(url_call)
         page_data = r.json()
 
