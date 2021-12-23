@@ -13,8 +13,8 @@ You can pick one of these options:
 * install [browser-sync](https://www.browsersync.io/) and run:
   * `browser-sync start --port 8001 --server app --files app`
 * install Docker and run:
-  * `docker build -f Dockerfile.dev -t ffxiv-craft-opt-web-dev .`
-  * `docker run --rm -it -p 8001:8001 ffxiv-craft-opt-web-dev`
+  * `docker build --tag ffxiv-craft-opt-web-dev .`
+  * `docker run -d --rm -it -p 8001:8001 ffxiv-craft-opt-web-dev`
 
 The node.js, browser-sync and Docker methods options will serve the website on port 8001. Browser-sync should automatically launch your default browser and load the app.
 
