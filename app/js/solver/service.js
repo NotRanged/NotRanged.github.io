@@ -52,6 +52,11 @@
       settings.recipe.startQuality = 0;
     }
 
+    if (settings.recipe.safetyMargin === undefined) {
+      settings.recipe = angular.copy(settings.recipe);
+      settings.recipe.safetyMargin = 0;
+    }
+
     this.stopRequested = false;
     this.callbacks = {
       progress: progress,

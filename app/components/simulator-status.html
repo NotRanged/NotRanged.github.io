@@ -122,6 +122,21 @@
           <td class="col5 value">=&nbsp;{{bonusStats.startQuality}}</td>
           <td class="col6">&nbsp;</td>
         </tr>
+        <tr>
+          <td class="col1 stats-label">{{ 'STATS_SAFETY_MARGIN' | translate }}</td>
+          <td class="col2 value">0%</td>
+          <td class="col3 value">+&nbsp;0%</td>
+          <td class="col4">
+            +&nbsp;
+            <input class="input-mini" type="number" min="0" max="50" required force-numeric
+                   ng-model="bonusStats.safetyMargin"
+                   tooltip="The extra percentage of Quality that the solver tries to reach before looking for shorter solutions. For example, at a HQ margin of 10% on a 6000 Quality recipe,
+                   it will try to reach a Quality of 6600 and then prefer shorter solutions. Min 0%, max 50%. Recommended 0% for hard recipes."
+                   tooltip-placement="right"/>
+          </td>
+          <td class="col5 value">=&nbsp;{{bonusStats.safetyMargin}}%</td>
+          <td class="col6">&nbsp;</td>
+        </tr>
       </table>
     </form>
   </div>

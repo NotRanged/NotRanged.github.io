@@ -130,6 +130,7 @@
 "STATS_CONTROL": "Control",
 "STATS_CP": "CP",
 "STATS_START_QUALITY": "Start Quality",
+"STATS_SAFETY_MARGIN": "HQ% Margin",
 
 "EDIT_SIMULATOR": "Edit...",
 "LOADING": "Loading...",

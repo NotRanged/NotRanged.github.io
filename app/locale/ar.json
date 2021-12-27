@@ -47,6 +47,7 @@
     "STATS_CONTROL": "التحكم",
     "STATS_CP": "سى بى",
     "STATS_START_QUALITY": "ابدأ الجودة",
+    "STATS_SAFETY_MARGIN": "HQ% Margin",
   
     "NAV_SIMULATOR" : "محاكاة",
     "NAV_SOLVER" : "المجيب",

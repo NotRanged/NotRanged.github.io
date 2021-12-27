@@ -32,6 +32,7 @@
               recipe = angular.copy(recipe);
               recipe.cls = cls;
               recipe.startQuality = 0;
+              recipe.safetyMargin = 0;
               $rootScope.$broadcast('recipe.selected', recipe);
               return $state.target('simulator');
             })

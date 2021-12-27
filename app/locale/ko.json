@@ -97,6 +97,7 @@
   "STATS_CONTROL": "가공 숙련도",
   "STATS_CP": "CP",
   "STATS_START_QUALITY": "초기 품질",
+  "STATS_SAFETY_MARGIN": "HQ% Margin",
 
   "EDIT_SIMULATOR": "편집",
   "LOADING": "불러오는 중...",

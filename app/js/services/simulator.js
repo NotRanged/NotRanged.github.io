@@ -49,6 +49,10 @@
       settings.recipe = angular.copy(settings.recipe);
       settings.recipe.startQuality = 0;
     }
+    if (settings.recipe.safetyMargin === undefined) {
+      settings.recipe = angular.copy(settings.recipe);
+      settings.recipe.safetyMargin = 0;
+    }
 
     var id = this.nextId();
 
@@ -72,6 +76,10 @@
     if (settings.recipe.startQuality === undefined) {
       settings.recipe = angular.copy(settings.recipe);
       settings.recipe.startQuality = 0;
+    }
+    if (settings.recipe.safetyMargin === undefined) {
+      settings.recipe = angular.copy(settings.recipe);
+      settings.recipe.safetyMargin = 0;
     }
 
     var id = this.nextId();
