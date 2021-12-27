@@ -48,6 +48,7 @@
   "STATS_CONTROL": "Control",
   "STATS_CP": "CP",
   "STATS_START_QUALITY": "Start Quality",
+  "STATS_SAFETY_MARGIN": "HQ% Margin",
 
   "NAV_SIMULATOR" : "Simulator",
   "NAV_SOLVER" : "Solver",

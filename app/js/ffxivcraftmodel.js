@@ -51,12 +51,13 @@ function Crafter(cls, level, craftsmanship, control, craftPoints, specialist, ac
     }
 }
 
-function Recipe(baseLevel, level, difficulty, durability, startQuality, maxQuality, suggestedCraftsmanship, suggestedControl, progressDivider, progressModifier, qualityDivider, qualityModifier, stars) {
+function Recipe(baseLevel, level, difficulty, durability, startQuality, safetyMargin, maxQuality, suggestedCraftsmanship, suggestedControl, progressDivider, progressModifier, qualityDivider, qualityModifier, stars) {
     this.baseLevel = baseLevel;
     this.level = level;
     this.difficulty = difficulty;
     this.durability = durability;
     this.startQuality = startQuality;
+    this.safetyMargin = safetyMargin || 0;
     this.maxQuality = maxQuality;
     this.suggestedCraftsmanship = suggestedCraftsmanship || SuggestedCraftsmanship[this.level];
     this.suggestedControl = suggestedControl || SuggestedControl[this.level];
@@ -1388,6 +1389,7 @@ function evalSeq(individual, mySynth, penaltyWeight) {
     var penalties = 0;
     var fitness = 0;
     var fitnessProg = 0;
+    var safetyMarginFactor = 1 + mySynth.recipe.safetyMargin * 0.01;
 
     // Sum the constraint violations
     // experiment: wastedactions change
@@ -1428,11 +1430,11 @@ function evalSeq(individual, mySynth, penaltyWeight) {
         fitness += result.durabilityState * mySynth.solverVars.remainderDurFitnessValue;
     }
     else {
-        fitness += Math.min(mySynth.recipe.maxQuality*1.1, result.qualityState);
+        fitness += Math.min(mySynth.recipe.maxQuality*safetyMarginFactor, result.qualityState);
     }
     
     fitness -= penaltyWeight * penalties;
-    if (chk.progressOk && result.qualityState >= mySynth.recipe.maxQuality*1.1) {
+    if (chk.progressOk && result.qualityState >= mySynth.recipe.maxQuality*safetyMarginFactor) {
         // This if statement rewards a smaller synth length so long as conditions are met
         fitness *= (1 + 4 / result.step);
     }

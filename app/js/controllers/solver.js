@@ -173,6 +173,7 @@
         };
         
         theRecipe.startQuality = 0;
+        theRecipe.safetyMargin = 0;
         theRecipe.cls = $scope.recipe.cls;
         $scope.$emit('recipe.selected', theRecipe);
       }

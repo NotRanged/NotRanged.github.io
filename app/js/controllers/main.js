@@ -554,6 +554,7 @@
         difficulty: 9,
         durability: 40,
         startQuality: 0,
+        safetyMargin: 0,
         maxQuality: 312
       }
     }

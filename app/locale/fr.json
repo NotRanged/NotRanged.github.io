@@ -113,6 +113,7 @@
   "STATS_CONTROL": "Contrôle",
   "STATS_CP": "PS",
   "STATS_START_QUALITY": "Qualité initiale",
+  "STATS_SAFETY_MARGIN": "HQ% Margin",
 
   "NAV_SIMULATOR" : "Simulateur",
   "NAV_SOLVER" : "Solveur",

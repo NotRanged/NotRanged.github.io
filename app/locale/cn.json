@@ -116,6 +116,7 @@
   "STATS_CONTROL": "加工精度",
   "STATS_CP": "制作力",
   "STATS_START_QUALITY": "初期品质",
+  "STATS_SAFETY_MARGIN": "HQ% Margin",
 
   "NAV_SIMULATOR" : "模拟器",
   "NAV_SOLVER" : "求解器",

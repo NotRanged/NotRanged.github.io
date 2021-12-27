@@ -21,6 +21,7 @@
       control: 0,
       cp: 0,
       startQuality: 0,
+      safetyMargin: 0,
       food: {},
       medicine: {}
     }
@@ -62,6 +63,7 @@
   function addRecipeBonusStats(recipe, bonusStats) {
     var r = angular.copy(recipe);
     r.startQuality += bonusStats.startQuality;
+    r.safetyMargin += bonusStats.safetyMargin;
     return r;
   }
 })();
