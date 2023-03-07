@@ -11,3 +11,4 @@ package-lock.json
 *.zip
 .prettierignore
 css/
+scripts/ranged-python-xivapi-extractor/out/*
