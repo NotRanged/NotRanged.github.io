@@ -1,6 +1,8 @@
 import requests
 import json
 import math
+import io
+import csv
 from pathlib import Path
 from collections import defaultdict
 from tqdm import tqdm # funny progress bar :)
@@ -33,9 +35,42 @@ def construct_recipe_json(original_recipe):
     recipe["name"]["de"] = original_recipe["Name_de"]
     recipe["name"]["fr"] = original_recipe["Name_fr"]
     recipe["name"]["ja"] = original_recipe["Name_ja"]
+    recipe["name"]["ko"] = original_recipe["Name_ko"]
     if original_recipe["RecipeLevelTable"]["Stars"] != 0:
         recipe["stars"] = original_recipe["RecipeLevelTable"]["Stars"]
     return recipe
+
+
+def item_names_ko() -> dict[int, str]:
+    response = requests.get(
+        'https://raw.githubusercontent.com/Ra-Workspace/ffxiv-datamining-ko/master/csv/Item.csv',
+    )
+
+    body = io.StringIO(response.text)
+    # omit the first line - second line will be field names
+    body.readline()
+
+    reader = csv.DictReader(
+        body,
+        delimiter=',',
+        quotechar='"',
+        lineterminator='\n',
+        strict=True,
+    )
+
+    result = dict()
+
+    for row in reader:
+        id = row['#']
+        name = row['Name']
+
+        if name == '' or not id.isdigit():
+            continue
+
+        result[int(id)] = name
+
+    return result
+
 
 if __name__ == '__main__':
     # First part is getting the total amount of recipes that exist! This goes into an ID range.
@@ -47,16 +82,24 @@ if __name__ == '__main__':
     #ID_range = range(1, 1 + 1) # +1 because of how range works lol
 
     recipes = defaultdict(list)
+    names_ko = item_names_ko()
 
     # Handle the actual API calls here
     for ID in tqdm(ID_range):
         # Construct an URL to get data from for every page
-        url_call = 'https://xivapi.com/Recipe?page={0}&columns=Name_en,Name_de,Name_fr,Name_ja,ClassJob.NameEnglish,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,RecipeLevelTable'.format(ID)
+        url_call = 'https://xivapi.com/Recipe?page={0}&columns=Name_en,Name_de,Name_fr,Name_ja,ClassJob.NameEnglish,DurabilityFactor,QualityFactor,DifficultyFactor,RequiredControl,RequiredCraftsmanship,RecipeLevelTable,ItemResult.ID'.format(ID)
         r = requests.get(url_call)
         page_data = r.json()
 
         # Iterate through each recipe on the page
         for recipe in page_data['Results']:
+            # Inject korean item names
+            if recipe['ItemResult']['ID'] != None:
+                id = int(recipe['ItemResult']['ID'])
+                recipe['Name_ko'] = names_ko[id] if id in names_ko else None
+            else:
+                recipe['Name_ko'] = None
+
             # Save the data to the recipes dictionary, with a key for each crafting job
             key = recipe['ClassJob']['NameEnglish']
             constructed_recipe = construct_recipe_json(recipe)
