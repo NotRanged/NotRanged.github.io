@@ -30051,6 +30051,462 @@
     "suggestedCraftsmanship": 3180
   },
   {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Bühnenbaustoff",
+      "en": "Musicking Station Component",
+      "fr": "Élément de scène",
+      "ja": "舞台の重要部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Maschinenelemente",
+      "en": "Machining Supplies",
+      "fr": "Élément de machine",
+      "ja": "マシン開発の必需品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Küchenkomponenten",
+      "en": "Restaurant-grade Supplies",
+      "fr": "Élément de cuisine",
+      "ja": "料理提供の必需品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6900,
+    "name": {
+      "de": "Künstlerutensilien",
+      "en": "Painting Supplies",
+      "fr": "Élément de fresque",
+      "ja": "画材必需品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 7360,
+    "name": {
+      "de": "Radiostation-Bestandteile",
+      "en": "Radio Equipment",
+      "fr": "Élément de radio",
+      "ja": "ステーションの必需機材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Ersatzteil für Audiogeräte",
+      "en": "Audio Spare Parts",
+      "fr": "Pièces de rechange de sonorisation",
+      "ja": "音響整備用品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Blasinstrumentbestandteil",
+      "en": "Wind Instrument Component",
+      "fr": "Composant d'instrument à vent",
+      "ja": "管楽器部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Münzherstellungselement",
+      "en": "Coin Manufacturing Component",
+      "fr": "Ustensile de création de monnaie",
+      "ja": "コイン製造用品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Signiertes Erinnerungsstück",
+      "en": "Signed Memorabilia",
+      "fr": "Souvenir gravé",
+      "ja": "銘入り記念品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Element zur Wartung der Beleuchtungsanlage",
+      "en": "Lighting Parts",
+      "fr": "Composant de décoration lumineuse",
+      "ja": "電飾交換部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Leuchtstabbestandteil",
+      "en": "Carrotlight Pieces",
+      "fr": "Composant de bâton lumineux",
+      "ja": "携帯ライト部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Bestandteil für verbesserten Reiniger",
+      "en": "Cleaner Upgrade Component",
+      "fr": "Composant d'unité de nettoyage",
+      "ja": "クリーナー改良部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Element des Aufnahme-Supports",
+      "en": "Audio Recording Component",
+      "fr": "Composant d'unité d'enregistrement sonore",
+      "ja": "録音サポーターの開発部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Schutzanzugdichtungselement",
+      "en": "Parasital Infection Protection Suit Component",
+      "fr": "Élément étanche de combinaison de protection",
+      "ja": "気密維持用の防護スーツ部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Abenteuerspielzeugelement",
+      "en": "Occult Paraphernalia",
+      "fr": "Ustensile étrange et excitant",
+      "ja": "スリリング用具"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Rezeptdruckutensil",
+      "en": "Cookbook Printing Paraphernalia",
+      "fr": "Ustensile d'imprimerie",
+      "ja": "レシピ集印刷用具"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Karottenfrosterelement",
+      "en": "Carrot Chiller Component",
+      "fr": "Composant de congélateur",
+      "ja": "フリーザー修理部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Pilzmesserzubehör",
+      "en": "Loporrit's Gathering Tool Component",
+      "fr": "Composant d'outil de récolte",
+      "ja": "採集道具修理部材"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Kochutensil",
+      "en": "Popular Kitchen Goods",
+      "fr": "Ustensile de cuisine",
+      "ja": "不足調理用品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Sportutensil",
+      "en": "“Exercise Equipment”",
+      "fr": "Équipement de musculation",
+      "ja": "フィットネス用具"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Farbutensil",
+      "en": "Paint-mixer's Toolbox",
+      "fr": "Article de peinture",
+      "ja": "塗料調合用具"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Extrastarker Farbreiniger",
+      "en": "Super Sudsy Soap Bars",
+      "fr": "Article de produit détachant",
+      "ja": "超強力洗剤"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1335,
+    "durability": 35,
+    "level": 430,
+    "maxQuality": 4600,
+    "name": {
+      "de": "Explosives Fungizid",
+      "en": "Fungi Fighter",
+      "fr": "Composant d'explosif",
+      "ja": "対菌類兵器"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
+    "baseLevel": 80,
+    "difficulty": 1780,
+    "durability": 70,
+    "level": 430,
+    "maxQuality": 6440,
+    "name": {
+      "de": "Modeaccessoire",
+      "en": "Fashionable Thingums",
+      "fr": "Accessoire de mode",
+      "ja": "ファッション装飾品"
+    },
+    "progressDivider": 110,
+    "progressModifier": 100,
+    "qualityDivider": 90,
+    "qualityModifier": 100,
+    "suggestedControl": 1733,
+    "suggestedCraftsmanship": 1866
+  },
+  {
     "baseLevel": 81,
     "difficulty": 2000,
     "durability": 60,
@@ -30144,6 +30600,46 @@
     "qualityModifier": 100,
     "suggestedControl": 2418,
     "suggestedCraftsmanship": 2549
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3700,
+    "durability": 60,
+    "level": 570,
+    "maxQuality": 9028,
+    "name": {
+      "de": "Sammler-Teppich",
+      "en": "Connoisseur's Rug",
+      "fr": "Tapis de dilettante",
+      "ja": "好事家向けのラグ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "stars": 1,
+    "suggestedControl": 2703,
+    "suggestedCraftsmanship": 2924
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3900,
+    "durability": 60,
+    "level": 580,
+    "maxQuality": 11154,
+    "name": {
+      "de": "Sammler-Ledersofa",
+      "en": "Connoisseur's Leather Sofa",
+      "fr": "Canapé en cuir de dilettante",
+      "ja": "好事家向けのレザーソファ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 2,
+    "suggestedControl": 3080,
+    "suggestedCraftsmanship": 3180
   },
   {
     "baseLevel": 90,

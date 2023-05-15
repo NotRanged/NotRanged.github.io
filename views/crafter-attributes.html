@@ -14,8 +14,9 @@
       </span>
 -->
     </tabset>
-    <center><h1>It is HIGHLY RECOMMENDED you use GUARANTEED actions only.</h1>
-    <p1>And remember to turn off manipulation if you don't have it quest-unlocked yet.</p1></center>
+    <div class="container-fluid text-center">
+    <h3>Remember to turn off "Manipulation" if you don't have it quest-unlocked yet (lvl 65)!</h3>
+    </div>
     <div class="row-fluid">
       <div class="span6">
         <form class="form-horizontal" name="crafterForm">
@@ -45,13 +46,6 @@
                 <input class="input-mini" type="number" name="cp" ng-model="crafter.stats[currentClass].cp" min="0" required/>
               </div>
             </div>
-            <div class="control-group" ng-class="{error: !crafterForm.specialist.$valid}">
-              <label class="control-label">{{ 'SPECIALIST' | translate }}</label>
-              <div class="controls">
-                <label class="checkbox"><input type="checkbox" name="specialist" ng-model="crafter.stats[currentClass].specialist"/></label>
-                <p>{{ 'SPECIALIST_DESC' | translate }}</p>
-              </div>
-            </div>
           </fieldset>
         </form>
       </div>
@@ -61,10 +55,9 @@
             <legend>{{ 'AVAILABLE_ACTIONS' | translate }}
               <span class="pull-right btn-group">
                 <button class="btn" ng-click="selectAllActions(currentClass)">{{ 'CRAFTER_ATTRIBUTES_ALL' | translate }}</button>
-                <!-- Notranged edit - UX increase, remove chance-based actions by default.
-                <button class="btn" ng-click="selectActionsByLevel(currentClass)">{{ 'CRAFTER_ATTRIBUTES_BY_LEVEL' | translate }}</button>
-                -->
-                <button class="btn" ng-click="selectActionsGuaranteed(currentClass)">{{ 'CRAFTER_ATTRIBUTES_GUARANTEED' | translate }}</button>
+                <!-- Notranged edit - UX increase, remove chance-based actions by default. -->
+                <button class="btn" ng-click="selectActionsGuaranteed(currentClass)" style="color: green;">{{ 'CRAFTER_ATTRIBUTES_GUARANTEED' | translate }}</button>
+                <button class="btn" ng-click="selectActionsByLevel(currentClass)" style="color: red;">{{ 'CRAFTER_ATTRIBUTES_BY_LEVEL' | translate }}</button>
                 <button class="btn" ng-click="selectNoActions(currentClass)">{{ 'CRAFTER_ATTRIBUTES_NONE' | translate }}</button>
               </span>
             </legend>

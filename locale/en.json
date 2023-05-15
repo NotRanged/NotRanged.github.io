@@ -46,8 +46,8 @@
   "EFFICIENCY": "Efficiency",
 
   "CRAFTER_ATTRIBUTES_ALL": "All",
-  "CRAFTER_ATTRIBUTES_BY_LEVEL": "By Level",
-  "CRAFTER_ATTRIBUTES_GUARANTEED": "Guaranteed (By Level)",
+  "CRAFTER_ATTRIBUTES_BY_LEVEL": "By Level (Not Recommended)",
+  "CRAFTER_ATTRIBUTES_GUARANTEED": "Guaranteed By Level (Recommended)",
   "CRAFTER_ATTRIBUTES_NONE": "None",
 
   "STATS_CRAFTSMANSHIP": "Craftsmanship",
