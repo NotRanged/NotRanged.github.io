@@ -82,48 +82,10 @@
     "level": 3,
     "maxQuality": 120,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 11,
-    "suggestedCraftsmanship": 22
-  },
-  {
-    "baseLevel": 3,
-    "difficulty": 20,
-    "durability": 60,
-    "level": 3,
-    "maxQuality": 120,
-    "name": {
       "de": "Leder-Schnabelschuhe des Eifers",
       "en": "Leather Duckbills of Gathering",
       "fr": "Sandales bec d'oie des ressources",
       "ja": "ギャザラーダックビル"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 11,
-    "suggestedCraftsmanship": 22
-  },
-  {
-    "baseLevel": 3,
-    "difficulty": 20,
-    "durability": 60,
-    "level": 3,
-    "maxQuality": 120,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -181,25 +143,6 @@
       "en": "Leather Eyepatch",
       "fr": "Cache-œil",
       "ja": "アイパッチ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 11,
-    "suggestedCraftsmanship": 22
-  },
-  {
-    "baseLevel": 4,
-    "difficulty": 21,
-    "durability": 60,
-    "level": 4,
-    "maxQuality": 130,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -538,25 +481,6 @@
     "level": 10,
     "maxQuality": 250,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 29,
-    "suggestedCraftsmanship": 59
-  },
-  {
-    "baseLevel": 10,
-    "difficulty": 45,
-    "durability": 60,
-    "level": 10,
-    "maxQuality": 250,
-    "name": {
       "de": "Juchleder-Handgelenkschützer",
       "en": "Hard Leather Wristguards",
       "fr": "Garde-poignets en cuir rigide",
@@ -568,25 +492,6 @@
     "qualityModifier": 100,
     "suggestedControl": 29,
     "suggestedCraftsmanship": 59
-  },
-  {
-    "baseLevel": 11,
-    "difficulty": 48,
-    "durability": 60,
-    "level": 11,
-    "maxQuality": 270,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
   },
   {
     "baseLevel": 11,
@@ -665,25 +570,6 @@
     "suggestedCraftsmanship": 67
   },
   {
-    "baseLevel": 12,
-    "difficulty": 53,
-    "durability": 60,
-    "level": 12,
-    "maxQuality": 290,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
-  },
-  {
     "baseLevel": 13,
     "difficulty": 54,
     "durability": 60,
@@ -694,25 +580,6 @@
       "en": "Leather Targe",
       "fr": "Targe",
       "ja": "タージェ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
-  },
-  {
-    "baseLevel": 13,
-    "difficulty": 54,
-    "durability": 60,
-    "level": 13,
-    "maxQuality": 310,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -823,25 +690,6 @@
     "level": 14,
     "maxQuality": 330,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
-  },
-  {
-    "baseLevel": 14,
-    "difficulty": 54,
-    "durability": 60,
-    "level": 14,
-    "maxQuality": 330,
-    "name": {
       "de": "Juchleder-Federfäustlinge",
       "en": "Hard Leather Lightmitts",
       "fr": "Mitons légers en cuir rigide",
@@ -922,44 +770,6 @@
       "en": "Hard Leather Ringbands",
       "fr": "Palettes sanglées en cuir rigide",
       "ja": "ハードレザー・リングバンド"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 39,
-    "suggestedCraftsmanship": 78
-  },
-  {
-    "baseLevel": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "level": 16,
-    "maxQuality": 390,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 39,
-    "suggestedCraftsmanship": 78
-  },
-  {
-    "baseLevel": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "level": 16,
-    "maxQuality": 390,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1131,25 +941,6 @@
       "en": "Goatskin Leggings",
       "fr": "Jambières en cuir de bouquetin",
       "ja": "アルドゴートレギンス"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 41,
-    "suggestedCraftsmanship": 82
-  },
-  {
-    "baseLevel": 19,
-    "difficulty": 68,
-    "durability": 70,
-    "level": 19,
-    "maxQuality": 480,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1393,25 +1184,6 @@
     "level": 23,
     "maxQuality": 600,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
-    "baseLevel": 23,
-    "difficulty": 79,
-    "durability": 70,
-    "level": 23,
-    "maxQuality": 600,
-    "name": {
       "de": "Steinbockleder-Federfäustlinge",
       "en": "Goatskin Lightmitts",
       "fr": "Mitons légers en cuir de bouquetin",
@@ -1431,48 +1203,10 @@
     "level": 24,
     "maxQuality": 630,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
-    "baseLevel": 24,
-    "difficulty": 85,
-    "durability": 70,
-    "level": 24,
-    "maxQuality": 630,
-    "name": {
       "de": "Steinbockleder-Reiterhose",
       "en": "Goatskin Breeches",
       "fr": "Braies en cuir de bouquetin",
       "ja": "アルドゴートブリーチ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
-    "baseLevel": 24,
-    "difficulty": 85,
-    "durability": 70,
-    "level": 24,
-    "maxQuality": 630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1672,25 +1406,6 @@
     "suggestedCraftsmanship": 99
   },
   {
-    "baseLevel": 27,
-    "difficulty": 91,
-    "durability": 70,
-    "level": 27,
-    "maxQuality": 720,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
     "baseLevel": 28,
     "difficulty": 100,
     "durability": 70,
@@ -1701,25 +1416,6 @@
       "en": "Toadskin Cesti",
       "fr": "Cestes en cuir de crapaud",
       "ja": "トードセスタス"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 53,
-    "suggestedCraftsmanship": 106
-  },
-  {
-    "baseLevel": 28,
-    "difficulty": 100,
-    "durability": 70,
-    "level": 28,
-    "maxQuality": 760,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1868,25 +1564,6 @@
     "level": 31,
     "maxQuality": 900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 60,
-    "suggestedCraftsmanship": 121
-  },
-  {
-    "baseLevel": 31,
-    "difficulty": 106,
-    "durability": 80,
-    "level": 31,
-    "maxQuality": 900,
-    "name": {
       "de": "Krötenleder-Beinschützer",
       "en": "Toadskin Leg Guards",
       "fr": "Protège-jambes en cuir de crapaud",
@@ -1957,25 +1634,6 @@
     "suggestedCraftsmanship": 121
   },
   {
-    "baseLevel": 32,
-    "difficulty": 110,
-    "durability": 80,
-    "level": 32,
-    "maxQuality": 950,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 60,
-    "suggestedCraftsmanship": 121
-  },
-  {
     "baseLevel": 33,
     "difficulty": 55,
     "durability": 40,
@@ -2005,25 +1663,6 @@
       "en": "Skull Eyepatch",
       "fr": "Cache-œil tête de mort",
       "ja": "スカルアイパッチ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 60,
-    "suggestedCraftsmanship": 121
-  },
-  {
-    "baseLevel": 33,
-    "difficulty": 111,
-    "durability": 80,
-    "level": 33,
-    "maxQuality": 1000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2413,63 +2052,6 @@
     "suggestedCraftsmanship": 136
   },
   {
-    "baseLevel": 40,
-    "difficulty": 138,
-    "durability": 80,
-    "level": 40,
-    "maxQuality": 1400,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 68,
-    "suggestedCraftsmanship": 136
-  },
-  {
-    "baseLevel": 40,
-    "difficulty": 138,
-    "durability": 80,
-    "level": 40,
-    "maxQuality": 1400,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 68,
-    "suggestedCraftsmanship": 136
-  },
-  {
-    "baseLevel": 40,
-    "difficulty": 138,
-    "durability": 80,
-    "level": 40,
-    "maxQuality": 1400,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 68,
-    "suggestedCraftsmanship": 136
-  },
-  {
     "baseLevel": 41,
     "difficulty": 143,
     "durability": 80,
@@ -2499,25 +2081,6 @@
       "en": "Boarskin Culottes",
       "fr": "Culotte en cuir de sanglier",
       "ja": "ボアキュロット"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 68,
-    "suggestedCraftsmanship": 136
-  },
-  {
-    "baseLevel": 41,
-    "difficulty": 143,
-    "durability": 80,
-    "level": 41,
-    "maxQuality": 1460,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2632,25 +2195,6 @@
       "en": "Raptorskin Targe",
       "fr": "Targe en cuir de raptor",
       "ja": "ラプトルタージェ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
-  },
-  {
-    "baseLevel": 43,
-    "difficulty": 155,
-    "durability": 80,
-    "level": 43,
-    "maxQuality": 1580,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2856,25 +2400,6 @@
     "level": 44,
     "maxQuality": 1640,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
-  },
-  {
-    "baseLevel": 44,
-    "difficulty": 156,
-    "durability": 80,
-    "level": 44,
-    "maxQuality": 1640,
-    "name": {
       "de": "Raptorleder-Lendenschurz",
       "en": "Raptorskin Subligar",
       "fr": "Subligar en cuir de raptor",
@@ -3021,25 +2546,6 @@
     "suggestedCraftsmanship": 150
   },
   {
-    "baseLevel": 45,
-    "difficulty": 158,
-    "durability": 80,
-    "level": 45,
-    "maxQuality": 1700,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
-  },
-  {
     "baseLevel": 47,
     "difficulty": 167,
     "durability": 80,
@@ -3078,25 +2584,6 @@
     "suggestedCraftsmanship": 150
   },
   {
-    "baseLevel": 35,
-    "difficulty": 123,
-    "durability": 80,
-    "level": 35,
-    "maxQuality": 1110,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
     "baseLevel": 36,
     "difficulty": 124,
     "durability": 80,
@@ -3107,44 +2594,6 @@
       "en": "Boarskin Wristbands of Gathering",
       "fr": "Poignets des ressources en cuir de sanglier",
       "ja": "ボアギャザラーリストバンド"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 37,
-    "difficulty": 128,
-    "durability": 80,
-    "level": 37,
-    "maxQuality": 1220,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 37,
-    "difficulty": 128,
-    "durability": 80,
-    "level": 37,
-    "maxQuality": 1220,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -3274,25 +2723,6 @@
     "level": 44,
     "maxQuality": 1640,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
-  },
-  {
-    "baseLevel": 44,
-    "difficulty": 156,
-    "durability": 80,
-    "level": 44,
-    "maxQuality": 1640,
-    "name": {
       "de": "Raptorleder-Reiterhose",
       "en": "Raptorskin Breeches",
       "fr": "Braies en cuir de raptor",
@@ -3361,25 +2791,6 @@
     "qualityModifier": 100,
     "suggestedControl": 80,
     "suggestedCraftsmanship": 161
-  },
-  {
-    "baseLevel": 45,
-    "difficulty": 158,
-    "durability": 80,
-    "level": 45,
-    "maxQuality": 1700,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
   },
   {
     "baseLevel": 47,
@@ -3468,25 +2879,6 @@
       "en": "Raptorskin Jacket",
       "fr": "Jaque en cuir de raptor",
       "ja": "ラプトルジャケット"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 80,
-    "suggestedCraftsmanship": 161
-  },
-  {
-    "baseLevel": 49,
-    "difficulty": 174,
-    "durability": 80,
-    "level": 49,
-    "maxQuality": 1940,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -3805,26 +3197,6 @@
       "en": "Militia Harness",
       "fr": "Harnais de milicien",
       "ja": "ミリシアハーネス"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "stars": 1,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 210,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -4565,46 +3937,6 @@
       "en": "Gryphonskin Bracers",
       "fr": "Brassières en cuir d'hippogriffe",
       "ja": "ヒッポグリフブレーサー"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 250,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 250,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -5523,25 +4855,6 @@
     "suggestedCraftsmanship": 502
   },
   {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
     "baseLevel": 51,
     "difficulty": 220,
     "durability": 80,
@@ -5654,44 +4967,6 @@
     "qualityModifier": 100,
     "suggestedControl": 462,
     "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
   },
   {
     "baseLevel": 51,
@@ -5875,101 +5150,6 @@
       "en": "Serpentskin Armguards of Striking",
       "fr": "Garde-bras d'agresseur en cuir d'amphiptère",
       "ja": "アンフィプテレ・ストライカーアームガード"
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 68,
     "progressModifier": 100,
@@ -6188,63 +5368,6 @@
     "suggestedCraftsmanship": 570
   },
   {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
     "baseLevel": 51,
     "difficulty": 220,
     "durability": 80,
@@ -6416,82 +5539,6 @@
     "suggestedCraftsmanship": 570
   },
   {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
     "baseLevel": 57,
     "difficulty": 460,
     "durability": 70,
@@ -6642,44 +5689,6 @@
     "qualityModifier": 100,
     "suggestedControl": 513,
     "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
   },
   {
     "baseLevel": 51,
@@ -6891,44 +5900,6 @@
     "suggestedCraftsmanship": 570
   },
   {
-    "baseLevel": 52,
-    "difficulty": 260,
-    "durability": 80,
-    "level": 125,
-    "maxQuality": 2140,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 62,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 462,
-    "suggestedCraftsmanship": 502
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
-  },
-  {
     "baseLevel": 51,
     "difficulty": 220,
     "durability": 80,
@@ -7079,25 +6050,6 @@
     "qualityModifier": 100,
     "suggestedControl": 502,
     "suggestedCraftsmanship": 539
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
   },
   {
     "baseLevel": 52,
@@ -7269,44 +6221,6 @@
     "qualityModifier": 100,
     "suggestedControl": 502,
     "suggestedCraftsmanship": 539
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
   },
   {
     "baseLevel": 52,
@@ -8123,25 +7037,6 @@
     "level": 255,
     "maxQuality": 2790,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
       "de": "Gaganaleder-Hose des Verstümmelns",
       "en": "Gaganaskin Hose of Maiming",
       "fr": "Fuseau d'abatteur en cuir de gagana",
@@ -8180,48 +7075,10 @@
     "level": 255,
     "maxQuality": 2790,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
       "de": "Gaganaleder-Sandalen des Schlagens",
       "en": "Gaganaskin Sandals of Striking",
       "fr": "Sandales d'agresseur en cuir de gagana",
       "ja": "ガガナストライカーサンダル"
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 81,
     "progressModifier": 100,
@@ -8332,48 +7189,10 @@
     "level": 255,
     "maxQuality": 2790,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
       "de": "Gaganaleder-Sandalen des Spähens",
       "en": "Gaganaskin Sandals of Scouting",
       "fr": "Sandales d'éclaireur en cuir de gagana",
       "ja": "ガガナスカウトサンダル"
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 81,
     "progressModifier": 100,
@@ -8408,48 +7227,10 @@
     "level": 255,
     "maxQuality": 2790,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
       "de": "Gaganaleder-Sandalen der Magie",
       "en": "Gaganaskin Sandals of Casting",
       "fr": "Sandales d'incantateur en cuir de gagana",
       "ja": "ガガナキャスターサンダル"
-    },
-    "progressDivider": 81,
-    "progressModifier": 100,
-    "qualityDivider": 58,
-    "qualityModifier": 100,
-    "suggestedControl": 968,
-    "suggestedCraftsmanship": 1006
-  },
-  {
-    "baseLevel": 61,
-    "difficulty": 630,
-    "durability": 80,
-    "level": 255,
-    "maxQuality": 2790,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 81,
     "progressModifier": 100,
@@ -8541,25 +7322,6 @@
     "level": 265,
     "maxQuality": 2880,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
       "de": "Gyukileder-Kaskett des Zielens",
       "en": "Gyuki Leather Pot Helm",
       "fr": "Heaume en cuir de gyuki",
@@ -8617,25 +7379,6 @@
     "level": 265,
     "maxQuality": 2880,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
       "de": "Gyukileder-Kurzfingerhandschuhe des Spähens",
       "en": "Gyuki Leather Halfgloves of Scouting",
       "fr": "Mitaines d'éclaireur en cuir de gyuki",
@@ -8666,25 +7409,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1005,
     "suggestedCraftsmanship": 1037
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
   },
   {
     "baseLevel": 62,
@@ -8801,25 +7525,6 @@
     "suggestedCraftsmanship": 1050
   },
   {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
     "baseLevel": 65,
     "difficulty": 830,
     "durability": 80,
@@ -8877,25 +7582,6 @@
     "suggestedCraftsmanship": 1050
   },
   {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
     "baseLevel": 65,
     "difficulty": 830,
     "durability": 80,
@@ -8951,25 +7637,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1020,
     "suggestedCraftsmanship": 1050
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
   },
   {
     "baseLevel": 64,
@@ -9067,25 +7734,6 @@
     "suggestedCraftsmanship": 1063
   },
   {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
     "baseLevel": 67,
     "difficulty": 930,
     "durability": 80,
@@ -9103,25 +7751,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1035,
     "suggestedCraftsmanship": 1063
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
   },
   {
     "baseLevel": 66,
@@ -9210,25 +7839,6 @@
       "en": "Marid Leather Boots of Aiming",
       "fr": "Bottes de pisteur en cuir de marid",
       "ja": "マーリドレンジャーブーツ"
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 86,
     "progressModifier": 100,
@@ -9339,25 +7949,6 @@
     "level": 279,
     "maxQuality": 3240,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
       "de": "Maridenleder-Handschuhe der Magie",
       "en": "Marid Leather Gloves of Casting",
       "fr": "Gants d'incantateur en cuir de marid",
@@ -9381,25 +7972,6 @@
       "en": "Marid Leather Boots of Casting",
       "fr": "Bottes d'incantateur en cuir de marid",
       "ja": "マーリドキャスターブーツ"
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 86,
     "progressModifier": 100,
@@ -9561,25 +8133,6 @@
     "suggestedCraftsmanship": 1069
   },
   {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
     "baseLevel": 69,
     "difficulty": 1030,
     "durability": 80,
@@ -9609,25 +8162,6 @@
       "en": "Gazelleskin Boots of Aiming",
       "fr": "Bottes de pisteur en cuir de gazelle",
       "ja": "ガゼルレンジャーブーツ"
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 88,
     "progressModifier": 100,
@@ -9685,25 +8219,6 @@
       "en": "Gazelleskin Open-toed Boots of Scouting",
       "fr": "Cuissardes à bout ouvert d'éclaireur en cuir de gazelle",
       "ja": "ガゼル・スカウトオープンブーツ"
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 88,
     "progressModifier": 100,
@@ -9806,63 +8321,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1043,
     "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
   },
   {
     "baseLevel": 61,
@@ -10359,25 +8817,6 @@
     "suggestedCraftsmanship": 1079
   },
   {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
     "baseLevel": 63,
     "difficulty": 730,
     "durability": 80,
@@ -10454,25 +8893,6 @@
     "suggestedCraftsmanship": 1037
   },
   {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
     "baseLevel": 67,
     "difficulty": 930,
     "durability": 80,
@@ -10547,25 +8967,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1035,
     "suggestedCraftsmanship": 1063
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
   },
   {
     "baseLevel": 70,
@@ -12778,44 +11179,6 @@
     "level": 390,
     "maxQuality": 3763,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
       "de": "Smilodonleder-Ohrringe",
       "en": "Smilodonskin Earrings",
       "fr": "Boucles d'oreilles en cuir de smilodon",
@@ -12884,63 +11247,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1220,
     "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 75,
-    "difficulty": 1430,
-    "durability": 80,
-    "level": 406,
-    "maxQuality": 4100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 105,
-    "progressModifier": 100,
-    "qualityDivider": 85,
-    "qualityModifier": 100,
-    "suggestedControl": 1425,
-    "suggestedCraftsmanship": 1539
-  },
-  {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
-  },
-  {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
   },
   {
     "baseLevel": 5,
@@ -15652,26 +13958,6 @@
     "level": 90,
     "maxQuality": 2750,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
       "de": "Echsen-Wappenrock des Zielens",
       "en": "Saurian Tabard of Aiming",
       "fr": "Tabard de pisteur en cuir de saurien",
@@ -15732,26 +14018,6 @@
     "level": 90,
     "maxQuality": 2750,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
       "de": "Echsen-Handschuhe der Heilung",
       "en": "Saurian Gloves of Healing",
       "fr": "Gants de soigneur en cuir de saurien",
@@ -15792,26 +14058,6 @@
     "level": 90,
     "maxQuality": 2750,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
       "de": "Echsen-Handschuhe der Magie",
       "en": "Saurian Gloves of Casting",
       "fr": "Gants d'incantateur en cuir de saurien",
@@ -15836,26 +14082,6 @@
       "en": "Saurian Crakows of Casting",
       "fr": "Souliers à poulaine d'incantateur en cuir de saurien",
       "ja": "ソーリアンキャスタークラコー"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -16077,46 +14303,6 @@
     "stars": 3,
     "suggestedControl": 374,
     "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 210,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "stars": 1,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 210,
-    "durability": 80,
-    "level": 55,
-    "maxQuality": 2200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "stars": 1,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
   },
   {
     "baseLevel": 50,
@@ -17186,50 +15372,10 @@
     "level": 110,
     "maxQuality": 2900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
       "de": "Kirimu-Sandalen des Schlagens",
       "en": "Kirimu Sandals of Striking",
       "fr": "Sandales Kirimu d'agresseur",
       "ja": "キリムストライカーサンダル"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -17386,26 +15532,6 @@
     "level": 110,
     "maxQuality": 2900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
       "de": "Kirimu-Handschuhe der Magie",
       "en": "Kirimu Gloves of Casting",
       "fr": "Gants Kirimu d'incantateur",
@@ -17430,26 +15556,6 @@
       "en": "Kirimu Boots of Casting",
       "fr": "Bottes Kirimu d'incantateur",
       "ja": "キリムキャスターブーツ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -17530,26 +15636,6 @@
       "en": "Kirimu Sandals of Scouting",
       "fr": "Sandales Kirimu d'éclaireur",
       "ja": "キリムスカウトサンダル"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -17745,26 +15831,6 @@
     "level": 180,
     "maxQuality": 2900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
       "de": "Greifenleder-Rock der Verteidigung",
       "en": "Griffin Leather Skirt of Fending",
       "fr": "Jupe de protecteur en cuir de griffon",
@@ -17815,45 +15881,6 @@
     "qualityModifier": 100,
     "suggestedControl": 546,
     "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
   },
   {
     "baseLevel": 60,
@@ -17972,25 +15999,6 @@
     "stars": 2,
     "suggestedControl": 695,
     "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
   },
   {
     "baseLevel": 60,
@@ -18287,25 +16295,6 @@
     "suggestedCraftsmanship": 718
   },
   {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
-  },
-  {
     "baseLevel": 60,
     "difficulty": 580,
     "durability": 70,
@@ -18403,45 +16392,6 @@
     "suggestedCraftsmanship": 580
   },
   {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
-  },
-  {
     "baseLevel": 60,
     "difficulty": 740,
     "durability": 70,
@@ -18479,26 +16429,6 @@
     "qualityModifier": 100,
     "suggestedControl": 546,
     "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
   },
   {
     "baseLevel": 60,
@@ -18579,26 +16509,6 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 580,
     "durability": 70,
     "level": 150,
@@ -18672,26 +16582,6 @@
     "qualityModifier": 100,
     "suggestedControl": 546,
     "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
   },
   {
     "baseLevel": 60,
@@ -20418,46 +18308,6 @@
     "level": 210,
     "maxQuality": 3300,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
       "de": "Forschermantel",
       "en": "Expeditioner's Coat",
       "fr": "Manteau d'expédition",
@@ -21662,46 +19512,6 @@
     "stars": 2,
     "suggestedControl": 695,
     "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 900,
-    "durability": 70,
-    "level": 220,
-    "maxQuality": 3390,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 835,
-    "suggestedCraftsmanship": 870
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 900,
-    "durability": 70,
-    "level": 220,
-    "maxQuality": 3390,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 835,
-    "suggestedCraftsmanship": 870
   },
   {
     "baseLevel": 60,
@@ -23370,70 +21180,10 @@
     "level": 350,
     "maxQuality": 5200,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
       "de": "Faultierleder-Stiefel des Schlagens",
       "en": "Slothskin Boots of Striking",
       "fr": "Bottes d'agresseur en cuir de paresseux",
       "ja": "メガテリウム・ストライカーブーツ"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -23490,26 +21240,6 @@
     "level": 350,
     "maxQuality": 5200,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
       "de": "Faultierleder-Handschuhe des Spähens",
       "en": "Slothskin Gloves of Scouting",
       "fr": "Gants d'éclaireur en cuir de paresseux",
@@ -23550,26 +21280,6 @@
     "level": 350,
     "maxQuality": 5200,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
       "de": "Faultierleder-Stiefel der Heilung",
       "en": "Slothskin Boots of Healing",
       "fr": "Bottes de soigneur en cuir de paresseux",
@@ -23590,50 +21300,10 @@
     "level": 350,
     "maxQuality": 5200,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
       "de": "Faultierleder-Stiefel der Magie",
       "en": "Slothskin Boots of Casting",
       "fr": "Bottes d'incantateur en cuir de paresseux",
       "ja": "メガテリウム・キャスターブーツ"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -24633,46 +22303,6 @@
     "level": 380,
     "maxQuality": 6100,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
       "de": "Rakshasa-Tekko des Schlagens",
       "en": "Rakshasa Tekko of Striking",
       "fr": "Tekkô rakshasa d'agresseur",
@@ -24697,26 +22327,6 @@
       "en": "Rakshasa Zori of Striking",
       "fr": "Zôri rakshasa d'agresseur",
       "ja": "羅刹草履【拳士】"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -24773,26 +22383,6 @@
     "level": 380,
     "maxQuality": 6100,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
       "de": "Rakshasa-Tekko des Spähens",
       "en": "Rakshasa Tekko of Scouting",
       "fr": "Tekkô rakshasa d'éclaireur",
@@ -24817,26 +22407,6 @@
       "en": "Rakshasa Zori of Scouting",
       "fr": "Zôri rakshasa d'éclaireur",
       "ja": "羅刹草履【間士】"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -24893,26 +22463,6 @@
     "level": 380,
     "maxQuality": 6100,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
       "de": "Rakshasa-Tekko der Magie",
       "en": "Rakshasa Tekko of Casting",
       "fr": "Tekkô rakshasa d'incantateur",
@@ -24937,26 +22487,6 @@
       "en": "Rakshasa Zori of Casting",
       "fr": "Zôri rakshasa d'incantateur",
       "ja": "羅刹草履【術士】"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 1600,
-    "suggestedCraftsmanship": 1650
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1500,
-    "durability": 70,
-    "level": 380,
-    "maxQuality": 6100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -26733,26 +24263,6 @@
     "level": 480,
     "maxQuality": 8500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
       "de": "Neo-Ishgarder Oberteil des Zielens",
       "en": "Neo-Ishgardian Top of Aiming",
       "fr": "Haut-de-corps de pisteur néo-ishgardais",
@@ -26793,50 +24303,10 @@
     "level": 480,
     "maxQuality": 8500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
       "de": "Neo-Ishgarder Oberteil des Spähens",
       "en": "Neo-Ishgardian Top of Scouting",
       "fr": "Haut-de-corps d'éclaireur néo-ishgardais",
       "ja": "ネオイシュガルディアン・スカウトトップス"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -26893,26 +24363,6 @@
     "level": 480,
     "maxQuality": 8500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
       "de": "Neo-Ishgarder Oberteil der Magie",
       "en": "Neo-Ishgardian Top of Casting",
       "fr": "Haut-de-corps d'incantateur néo-ishgardais",
@@ -26937,26 +24387,6 @@
       "en": "Neo-Ishgardian Boots of Casting",
       "fr": "Bottes d'incantateur néo-ishgardaises",
       "ja": "ネオイシュガルディアン・キャスターブーツ"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -27077,46 +24507,6 @@
       "en": "Aesthete's Boots of Gathering",
       "fr": "Bottes des ressources esthétiques",
       "ja": "エースセチック・ギャザラーブーツ"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -29959,7 +27349,7 @@
     "name": {
       "de": "Otterborn-Bauholz",
       "en": "Water Otter Fountain Lumber",
-      "fr": "Matériaux pour la fontaine ressourçante",
+      "fr": "Poutre pour la fontaine ressourçante",
       "ja": "ウソウソの泉の建築用部材"
     },
     "progressDivider": 180,
@@ -30817,6 +28207,386 @@
     "progressModifier": 100,
     "qualityDivider": 180,
     "qualityModifier": 100,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Jacke der Verteidigung",
+      "en": "Diadochos Jacket of Fending",
+      "fr": "Jaque de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダージャケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stiefel der Verteidigung",
+      "en": "Diadochos Boots of Fending",
+      "fr": "Bottes de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーブーツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Jacke des Verstümmelns",
+      "en": "Diadochos Jacket of Maiming",
+      "fr": "Jaque d'abatteur de diadoque",
+      "ja": "ディアドコス・スレイヤージャケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stiefel des Verstümmelns",
+      "en": "Diadochos Boots of Maiming",
+      "fr": "Bottes d'abatteur de diadoque",
+      "ja": "ディアドコス・スレイヤーブーツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stirnband des Schlagens",
+      "en": "Diadochos Headband of Striking",
+      "fr": "Bandeau d'agresseur de diadoque",
+      "ja": "ディアドコス・ストライカーヘッドバンド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Handschuhe des Schlagens",
+      "en": "Diadochos Gloves of Striking",
+      "fr": "Gants d'agresseur de diadoque",
+      "ja": "ディアドコス・ストライカーグローブ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Schuhe des Schlagens",
+      "en": "Diadochos Shoes of Striking",
+      "fr": "Chaussures d'agresseur de diadoque",
+      "ja": "ディアドコス・ストライカーシューズ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Jacke des Zielens",
+      "en": "Diadochos Jacket of Aiming",
+      "fr": "Jaque de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャージャケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stiefel des Zielens",
+      "en": "Diadochos Boots of Aiming",
+      "fr": "Bottes de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーブーツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stirnband des Spähens",
+      "en": "Diadochos Headband of Scouting",
+      "fr": "Bandeau d'éclaireur de diadoque",
+      "ja": "ディアドコス・スカウトヘッドバンド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Handschuhe des Spähens",
+      "en": "Diadochos Gloves of Scouting",
+      "fr": "Gants d'éclaireur de diadoque",
+      "ja": "ディアドコス・スカウトグローブ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Schuhe des Spähens",
+      "en": "Diadochos Shoes of Scouting",
+      "fr": "Chaussures d'éclaireur de diadoque",
+      "ja": "ディアドコス・スカウトシューズ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stiefel der Heilung",
+      "en": "Diadochos Boots of Healing",
+      "fr": "Bottes de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーブーツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stiefel der Magie",
+      "en": "Diadochos Boots of Casting",
+      "fr": "Bottes d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターブーツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Deinosuchus-Leder",
+      "en": "Deinosuchus Leather",
+      "fr": "Cuir de deinosuchus",
+      "ja": "デイノスクスレザー"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 8800,
+    "durability": 60,
+    "level": 641,
+    "maxQuality": 18040,
+    "name": {
+      "de": "Gymnastikutter-Bauholz",
+      "en": "Uncharted Course Lumber",
+      "fr": "Poutre pour l'accrobranche insulaire",
+      "ja": "アスレチックシップの建築用部材"
+    },
+    "progressDivider": 180,
+    "progressModifier": 100,
+    "qualityDivider": 180,
+    "qualityModifier": 100,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Einfache Pantoffeln",
+      "en": "Plain Pajama Slippers",
+      "fr": "Chaussons de pyjama",
+      "ja": "プレーンパジャマ・スリッパ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Kaktor-Pantoffeln",
+      "en": "Cactuar Pajama Slippers",
+      "fr": "Chaussons de pyjama pampa",
+      "ja": "サボテンダーパジャマ・スリッパ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Chocobo-Pantoffeln",
+      "en": "Chocobo Pajama Slippers",
+      "fr": "Chaussons de pyjama chocobo",
+      "ja": "チョコボパジャマ・スリッパ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
     "stars": 3,
     "suggestedControl": 3280,
     "suggestedCraftsmanship": 3700

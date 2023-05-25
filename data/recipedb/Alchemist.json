@@ -10876,7 +10876,7 @@
     "name": {
       "de": "Orange Trichterwinden-Haarspange",
       "en": "Orange Morning Glory Corsage",
-      "fr": "Barrette belles-de-jour oranges",
+      "fr": "Barrette belles-de-jour orange",
       "ja": "モーニンググローリーオーナメント:オレンジ"
     },
     "progressDivider": 107,
@@ -11018,6 +11018,234 @@
     "qualityModifier": 80,
     "suggestedControl": 2635,
     "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Gärtner-Kerzenständer",
+      "en": "Botanical Candle Display",
+      "fr": "Panier de chandelles de botanique",
+      "ja": "ボタニカル・キャンドルバスケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Efeu-Wandkettenlampe",
+      "en": "Ivy Pendant Wall Light",
+      "fr": "Lampe murale suspendue en lierre",
+      "ja": "アイビー・ペンダントウォールライト"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Wasserpumpe",
+      "en": "Well Pump",
+      "fr": "Pompe à puits",
+      "ja": "ウォーターウェルポンプ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Rote Chrysanthemen-Haarspange",
+      "en": "Red Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème rouge",
+      "ja": "クリサンセマムオーナメント:レッド"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Blaue Chrysanthemen-Haarspange",
+      "en": "Blue Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème bleu",
+      "ja": "クリサンセマムオーナメント:ブルー"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Gelbe Chrysanthemen-Haarspange",
+      "en": "Yellow Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème jaune",
+      "ja": "クリサンセマムオーナメント:イエロー"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Grüne Chrysanthemen-Haarspange",
+      "en": "Green Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème vert",
+      "ja": "クリサンセマムオーナメント:グリーン"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Orange Chrysanthemen-Haarspange",
+      "en": "Orange Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème orange",
+      "ja": "クリサンセマムオーナメント:オレンジ"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Violette Chrysanthemen-Haarspange",
+      "en": "Purple Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème violet",
+      "ja": "クリサンセマムオーナメント:パープル"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Weiße Chrysanthemen-Haarspange",
+      "en": "White Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème blanc",
+      "ja": "クリサンセマムオーナメント:ホワイト"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Schwarze Chrysanthemen-Haarspange",
+      "en": "Black Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème noir",
+      "ja": "クリサンセマムオーナメント:ブラック"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
+  },
+  {
+    "baseLevel": 78,
+    "difficulty": 1640,
+    "durability": 80,
+    "level": 415,
+    "maxQuality": 4400,
+    "name": {
+      "de": "Mehrfarbige Chrysanthemen-Haarspange",
+      "en": "Rainbow Chrysanthemum Corsage",
+      "fr": "Barrette chrysanthème multicolore",
+      "ja": "クリサンセマムオーナメント:ブレンド"
+    },
+    "progressDivider": 108,
+    "progressModifier": 100,
+    "qualityDivider": 88,
+    "qualityModifier": 100,
+    "suggestedControl": 1541,
+    "suggestedCraftsmanship": 1662
   },
   {
     "baseLevel": 30,
@@ -23248,6 +23476,286 @@
     "progressModifier": 100,
     "qualityDivider": 180,
     "qualityModifier": 100,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Grimoire",
+      "en": "Diadochos Index",
+      "fr": "Index de diadoque",
+      "ja": "ディアドコス・インデックス"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Kodex",
+      "en": "Diadochos Codex",
+      "fr": "Codex de diadoque",
+      "ja": "ディアドコス・コーデックス"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Visionslösung der Stärke VIII",
+      "en": "Grade 8 Strength Alkahest",
+      "fr": "Eau chimérique de force VIII",
+      "ja": "剛力の幻水G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Visionslösung der Geschicklichkeit VIII",
+      "en": "Grade 8 Dexterity Alkahest",
+      "fr": "Eau chimérique de dextérité VIII",
+      "ja": "眼力の幻水G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Visionslösung der Konstitution VIII",
+      "en": "Grade 8 Vitality Alkahest",
+      "fr": "Eau chimérique de vitalité VIII",
+      "ja": "活力の幻水G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Visionslösung der Intelligenz VIII",
+      "en": "Grade 8 Intelligence Alkahest",
+      "fr": "Eau chimérique d'intelligence VIII",
+      "ja": "知力の幻水G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Visionslösung der Willenskraft VIII",
+      "en": "Grade 8 Mind Alkahest",
+      "fr": "Eau chimérique d'esprit VIII",
+      "ja": "心力の幻水G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Visionsremedium der Stärke VIII",
+      "en": "Grade 8 Tincture of Strength",
+      "fr": "Philtre chimérique de force VIII",
+      "ja": "剛力の幻薬G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Visionsremedium der Geschicklichkeit VIII",
+      "en": "Grade 8 Tincture of Dexterity",
+      "fr": "Philtre chimérique de dextérité VIII",
+      "ja": "眼力の幻薬G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Visionsremedium der Konstitution VIII",
+      "en": "Grade 8 Tincture of Vitality",
+      "fr": "Philtre chimérique de vitalité VIII",
+      "ja": "活力の幻薬G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Visionsremedium der Intelligenz VIII",
+      "en": "Grade 8 Tincture of Intelligence",
+      "fr": "Philtre chimérique d'intelligence VIII",
+      "ja": "知力の幻薬G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Visionsremedium der Willenskraft VIII",
+      "en": "Grade 8 Tincture of Mind",
+      "fr": "Philtre chimérique d'esprit VIII",
+      "ja": "心力の幻薬G8"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 8800,
+    "durability": 60,
+    "level": 641,
+    "maxQuality": 18040,
+    "name": {
+      "de": "Gymnastikutter-Kunstharz",
+      "en": "Uncharted Course Resin",
+      "fr": "Résine synthétique pour l'accrobranche insulaire",
+      "ja": "アスレチックシップの建築用合成樹脂"
+    },
+    "progressDivider": 180,
+    "progressModifier": 100,
+    "qualityDivider": 180,
+    "qualityModifier": 100,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Notenrolle von „Voidcast Savior“",
+      "en": "Voidcast Savior Orchestrion Roll",
+      "fr": "Rouleau “Voidcast Savior”",
+      "ja": "オーケストリオン譜:ヴォイドの救済者"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
     "stars": 3,
     "suggestedControl": 3280,
     "suggestedCraftsmanship": 3700

@@ -11581,6 +11581,234 @@
     "suggestedCraftsmanship": 2805
   },
   {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Gärtner-Schreibtisch",
+      "en": "Botanist's Work Table",
+      "fr": "Table de travail de botaniste",
+      "ja": "ボタニスト・ワークデスク"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "„Fenster mit Vorhängen“-Imitation",
+      "en": "Imitation Curtained Window",
+      "fr": "Imitation de fenêtre à rideaux",
+      "ja": "イミテーション・カーテンウィンドウ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Wand-Küchenschrank",
+      "en": "Floating Kitchen Cabinet",
+      "fr": "Cabinet de cuisine mural",
+      "ja": "ハンギング・キッチンキャビネット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Tropische Gestell-Hängematte",
+      "en": "Freestanding Rattan Hammock",
+      "fr": "Hamac sur pied tropical",
+      "ja": "トロピカル・スタンドハンモック"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Rustikaler Holztisch",
+      "en": "Rustic Log Table",
+      "fr": "Table en rondin rustique",
+      "ja": "ラスティックログテーブル"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Rustikale Holzbank",
+      "en": "Rustic Log Bench",
+      "fr": "Banc en rondin rustique",
+      "ja": "ラスティックログベンチ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Antiquitäten-Beistelltisch",
+      "en": "Vintage Side Table",
+      "fr": "Table de chevet de collection",
+      "ja": "ヴィンテージサイドテーブル"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Halbsäulen-Bücherregal",
+      "en": "Short Pillar Bookshelf",
+      "fr": "Bibliothèque circulaire",
+      "ja": "ハーフピラー・ブックシェルフ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Tropischer Raumteiler",
+      "en": "Rattan Partition",
+      "fr": "Cloison tropicale",
+      "ja": "トロピカルパーティション"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Servierfass",
+      "en": "Serving Barrel",
+      "fr": "Tonneau avec robinet",
+      "ja": "サーヴィングバレル"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Veranda-Schaukel",
+      "en": "Country Swing Seat",
+      "fr": "Balançoire de jardin rustique",
+      "ja": "カントリー・ヤードスイング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Holzveranda mit Efeu-Vordach",
+      "en": "Ivy-canopied Deck",
+      "fr": "Terrasse en bois recouverte de lierre",
+      "ja": "アイビーオーニング・ウッドデッキ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
     "baseLevel": 30,
     "difficulty": 51,
     "durability": 70,
@@ -22207,7 +22435,7 @@
     "name": {
       "de": "Otterborn-Bauholz",
       "en": "Water Otter Fountain Lumber",
-      "fr": "Matériaux pour la fontaine ressourçante",
+      "fr": "Poutre pour la fontaine ressourçante",
       "ja": "ウソウソの泉の建築用部材"
     },
     "progressDivider": 180,
@@ -23146,6 +23374,186 @@
     "qualityDivider": 180,
     "qualityModifier": 100,
     "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Speer",
+      "en": "Diadochos Spear",
+      "fr": "Hast de diadoque",
+      "ja": "ディアドコス・スピア"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Kompositbogen",
+      "en": "Diadochos Compound Bow",
+      "fr": "Arc à poulies de diadoque",
+      "ja": "ディアドコス・コンパウンドボウ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ring der Verteidigung",
+      "en": "Diadochos Ring of Fending",
+      "fr": "Bague-armure de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーアーマーリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ring des Schlachtens",
+      "en": "Diadochos Ring of Slaying",
+      "fr": "Bague-armure d'attaquant de diadoque",
+      "ja": "ディアドコス・アタッカーアーマーリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ring des Zielens",
+      "en": "Diadochos Ring of Aiming",
+      "fr": "Bague-armure de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーアーマーリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ring der Heilung",
+      "en": "Diadochos Ring of Healing",
+      "fr": "Bague-armure de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーアーマーリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ring der Magie",
+      "en": "Diadochos Ring of Casting",
+      "fr": "Bague-armure d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターアーマーリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Traubenkirsch-Bauholz",
+      "en": "Dark Cherry Lumber",
+      "fr": "Madrier de cerisier noir",
+      "ja": "ブラックチェリー材"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 8800,
+    "durability": 60,
+    "level": 641,
+    "maxQuality": 18040,
+    "name": {
+      "de": "Gymnastikutter-Bauholz",
+      "en": "Uncharted Course Lumber",
+      "fr": "Poutre pour l'accrobranche insulaire",
+      "ja": "アスレチックシップの建築用部材"
+    },
+    "progressDivider": 180,
+    "progressModifier": 100,
+    "qualityDivider": 180,
+    "qualityModifier": 100,
+    "stars": 4,
     "suggestedControl": 3280,
     "suggestedCraftsmanship": 3700
   }

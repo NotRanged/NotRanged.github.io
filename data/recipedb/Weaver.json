@@ -513,25 +513,6 @@
     "suggestedCraftsmanship": 50
   },
   {
-    "baseLevel": 7,
-    "difficulty": 37,
-    "durability": 60,
-    "level": 7,
-    "maxQuality": 190,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 25,
-    "suggestedCraftsmanship": 50
-  },
-  {
     "baseLevel": 8,
     "difficulty": 41,
     "durability": 60,
@@ -1013,25 +994,6 @@
     "level": 14,
     "maxQuality": 330,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
-  },
-  {
-    "baseLevel": 14,
-    "difficulty": 54,
-    "durability": 60,
-    "level": 14,
-    "maxQuality": 330,
-    "name": {
       "de": "Baumwollkukulle",
       "en": "Cotton Cowl",
       "fr": "Coule en coton",
@@ -1207,25 +1169,6 @@
       "en": "Cotton Tabard",
       "fr": "Tabard en coton",
       "ja": "コットンタバード"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 39,
-    "suggestedCraftsmanship": 78
-  },
-  {
-    "baseLevel": 16,
-    "difficulty": 63,
-    "durability": 70,
-    "level": 16,
-    "maxQuality": 390,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1473,25 +1416,6 @@
       "en": "Cotton Work Gloves",
       "fr": "Gants de travail en coton",
       "ja": "コットンワークグローブ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 47,
-    "suggestedCraftsmanship": 94
-  },
-  {
-    "baseLevel": 21,
-    "difficulty": 75,
-    "durability": 70,
-    "level": 21,
-    "maxQuality": 540,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1919,44 +1843,6 @@
     "suggestedCraftsmanship": 99
   },
   {
-    "baseLevel": 26,
-    "difficulty": 90,
-    "durability": 70,
-    "level": 26,
-    "maxQuality": 690,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
-    "baseLevel": 27,
-    "difficulty": 91,
-    "durability": 70,
-    "level": 27,
-    "maxQuality": 720,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
     "baseLevel": 27,
     "difficulty": 91,
     "durability": 70,
@@ -2043,25 +1929,6 @@
       "en": "Velveteen Coatee of Gathering",
       "fr": "Boléro des ressources en veloutine",
       "ja": "ベルベティーンギャザラーコーティー"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 53,
-    "suggestedCraftsmanship": 106
-  },
-  {
-    "baseLevel": 28,
-    "difficulty": 100,
-    "durability": 70,
-    "level": 28,
-    "maxQuality": 760,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2271,25 +2138,6 @@
       "en": "Velveteen Gaskins",
       "fr": "Grègues en veloutine",
       "ja": "ベルベティーンガスキン"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 60,
-    "suggestedCraftsmanship": 121
-  },
-  {
-    "baseLevel": 31,
-    "difficulty": 106,
-    "durability": 80,
-    "level": 31,
-    "maxQuality": 900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2670,25 +2518,6 @@
       "en": "Linen Wedge Cap of Crafting",
       "fr": "Calot des créations en lin",
       "ja": "リネン・クラフターウェッジキャップ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 37,
-    "difficulty": 128,
-    "durability": 80,
-    "level": 37,
-    "maxQuality": 1220,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -3781,44 +3610,6 @@
     "suggestedCraftsmanship": 161
   },
   {
-    "baseLevel": 35,
-    "difficulty": 123,
-    "durability": 80,
-    "level": 35,
-    "maxQuality": 1110,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 36,
-    "difficulty": 124,
-    "durability": 80,
-    "level": 36,
-    "maxQuality": 1160,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
     "baseLevel": 37,
     "difficulty": 128,
     "durability": 80,
@@ -3855,25 +3646,6 @@
     "qualityModifier": 100,
     "suggestedControl": 64,
     "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 39,
-    "difficulty": 137,
-    "durability": 80,
-    "level": 39,
-    "maxQuality": 1340,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 68,
-    "suggestedCraftsmanship": 136
   },
   {
     "baseLevel": 39,
@@ -4102,25 +3874,6 @@
     "qualityModifier": 100,
     "suggestedControl": 80,
     "suggestedCraftsmanship": 161
-  },
-  {
-    "baseLevel": 45,
-    "difficulty": 158,
-    "durability": 80,
-    "level": 45,
-    "maxQuality": 1700,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
   },
   {
     "baseLevel": 46,
@@ -5043,46 +4796,6 @@
       "en": "Vanya Gloves of Healing",
       "fr": "Gants de soigneur en soie vanya",
       "ja": "ヴァンヤヒーラーグローブ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 250,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 250,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -7120,44 +6833,6 @@
     "level": 115,
     "maxQuality": 2070,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
       "de": "Regenbogen-Beinlinge des Zielens",
       "en": "Rainbow Slops of Aiming",
       "fr": "Trousses de pisteur en étoffe arc-en-ciel",
@@ -7371,25 +7046,6 @@
       "en": "Rainbow Halfgloves of Scouting",
       "fr": "Mitaines d'éclaireur en étoffe arc-en-ciel",
       "ja": "レインボークロス・スカウトハーフグローブ"
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 61,
     "progressModifier": 100,
@@ -7671,63 +7327,6 @@
     "level": 115,
     "maxQuality": 2070,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
       "de": "Regenbogen-Beinlinge der Heilung",
       "en": "Rainbow Slops of Healing",
       "fr": "Trousses de soigneur en étoffe arc-en-ciel ",
@@ -7948,63 +7547,6 @@
     "qualityModifier": 100,
     "suggestedControl": 491,
     "suggestedCraftsmanship": 529
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
   },
   {
     "baseLevel": 51,
@@ -8385,25 +7927,6 @@
     "qualityModifier": 100,
     "suggestedControl": 480,
     "suggestedCraftsmanship": 519
-  },
-  {
-    "baseLevel": 54,
-    "difficulty": 340,
-    "durability": 80,
-    "level": 133,
-    "maxQuality": 2280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 64,
-    "progressModifier": 100,
-    "qualityDivider": 44,
-    "qualityModifier": 100,
-    "suggestedControl": 491,
-    "suggestedCraftsmanship": 529
   },
   {
     "baseLevel": 54,
@@ -9634,25 +9157,6 @@
     "level": 265,
     "maxQuality": 2880,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
       "de": "Rubinbaumwoll-Hut der Magie",
       "en": "Ruby Cotton Hat of Casting",
       "fr": "Chapeau d'incantateur en rubicoton",
@@ -9721,25 +9225,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1005,
     "suggestedCraftsmanship": 1037
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
   },
   {
     "baseLevel": 64,
@@ -9957,25 +9442,6 @@
     "level": 273,
     "maxQuality": 3060,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
       "de": "Kudzu-Hut der Magie",
       "en": "Kudzu Hat of Casting",
       "fr": "Chapeau d'incantateur en kudzu",
@@ -10025,44 +9491,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1013,
     "suggestedCraftsmanship": 1044
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
   },
   {
     "baseLevel": 66,
@@ -10120,25 +9548,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1035,
     "suggestedCraftsmanship": 1063
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
   },
   {
     "baseLevel": 66,
@@ -10413,25 +9822,6 @@
     "level": 285,
     "maxQuality": 3420,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
       "de": "Doppelseiden-Haube der Magie",
       "en": "Twinsilk Hood of Casting",
       "fr": "Capuche d'incantateur en doublesoie",
@@ -10474,63 +9864,6 @@
       "en": "Twinsilk Slops of Casting",
       "fr": "Trousses d'incantateur en doublesoie",
       "ja": "ツインシルク・キャスタースロップ"
-    },
-    "progressDivider": 89,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1050,
-    "suggestedCraftsmanship": 1075
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 69,
-    "difficulty": 1030,
-    "durability": 80,
-    "level": 288,
-    "maxQuality": 3510,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 89,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1050,
-    "suggestedCraftsmanship": 1075
-  },
-  {
-    "baseLevel": 69,
-    "difficulty": 1030,
-    "durability": 80,
-    "level": 288,
-    "maxQuality": 3510,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 89,
     "progressModifier": 100,
@@ -10975,63 +10308,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1055,
     "suggestedCraftsmanship": 1079
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
-    "baseLevel": 66,
-    "difficulty": 880,
-    "durability": 80,
-    "level": 279,
-    "maxQuality": 3240,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 86,
-    "progressModifier": 100,
-    "qualityDivider": 66,
-    "qualityModifier": 100,
-    "suggestedControl": 1028,
-    "suggestedCraftsmanship": 1056
-  },
-  {
-    "baseLevel": 69,
-    "difficulty": 1030,
-    "durability": 80,
-    "level": 288,
-    "maxQuality": 3510,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 89,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1050,
-    "suggestedCraftsmanship": 1075
   },
   {
     "baseLevel": 56,
@@ -13350,25 +12626,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1733,
     "suggestedCraftsmanship": 1866
-  },
-  {
-    "baseLevel": 75,
-    "difficulty": 1430,
-    "durability": 80,
-    "level": 406,
-    "maxQuality": 4100,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 105,
-    "progressModifier": 100,
-    "qualityDivider": 85,
-    "qualityModifier": 100,
-    "suggestedControl": 1425,
-    "suggestedCraftsmanship": 1539
   },
   {
     "baseLevel": 13,
@@ -17643,26 +16900,6 @@
     "level": 110,
     "maxQuality": 2900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
       "de": "Arachne-Robe",
       "en": "Arachne Robe",
       "fr": "Robe Arachne",
@@ -18134,26 +17371,6 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 580,
     "durability": 70,
     "level": 150,
@@ -18189,45 +17406,6 @@
     "qualityModifier": 100,
     "suggestedControl": 553,
     "suggestedCraftsmanship": 587
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
   },
   {
     "baseLevel": 60,
@@ -18286,26 +17464,6 @@
     "qualityModifier": 100,
     "suggestedControl": 553,
     "suggestedCraftsmanship": 587
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 740,
-    "durability": 70,
-    "level": 180,
-    "maxQuality": 2900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 695,
-    "suggestedCraftsmanship": 718
   },
   {
     "baseLevel": 60,
@@ -18482,25 +17640,6 @@
     "stars": 2,
     "suggestedControl": 695,
     "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
   },
   {
     "baseLevel": 60,
@@ -20144,46 +19283,6 @@
     "level": 210,
     "maxQuality": 3300,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
       "de": "Forscher-Kecks",
       "en": "Expeditioner's Kecks",
       "fr": "Bénard d'expédition",
@@ -21376,26 +20475,6 @@
     "level": 250,
     "maxQuality": 3800,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
       "de": "Sternensamt-Haube der Magie",
       "en": "Star Velvet Hood of Casting",
       "fr": "Capuche d'incantateur en velours étoilé",
@@ -21460,26 +20539,6 @@
       "en": "Star Velvet Bottoms of Casting",
       "fr": "Bas-de-corps d'incantateur en velours étoilé",
       "ja": "スタービロード・キャスターボトム"
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 70,
     "progressModifier": 80,
@@ -22324,70 +21383,10 @@
     "level": 320,
     "maxQuality": 4800,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
       "de": "Indigoramien-Sarouel des Schlagens",
       "en": "Indigo Ramie Sarouel of Striking",
       "fr": "Saroual d'agresseur en ramie indigo",
       "ja": "インディゴラミー・ストライカーサルエル"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -22424,50 +21423,10 @@
     "level": 320,
     "maxQuality": 4800,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
       "de": "Indigoramien-Sarouel des Spähens",
       "en": "Indigo Ramie Sarouel of Scouting",
       "fr": "Saroual d'éclaireur en ramie indigo",
       "ja": "インディゴラミー・スカウトサルエル"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -22524,26 +21483,6 @@
     "level": 320,
     "maxQuality": 4800,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
       "de": "Indigoramien-Robe der Magie",
       "en": "Indigo Ramie Robe of Casting",
       "fr": "Robe d'incantateur en ramie indigo",
@@ -22568,26 +21507,6 @@
       "en": "Indigo Ramie Skirt of Casting",
       "fr": "Jupe d'incantateur en ramie indigo",
       "ja": "インディゴラミー・キャスタースカート"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1200,
-    "durability": 70,
-    "level": 320,
-    "maxQuality": 4800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -24563,46 +23482,6 @@
       "en": "Yamashi Momohiki",
       "fr": "Momohiki Yamashi",
       "ja": "山師股引"
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 80,
-    "qualityDivider": 70,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 1350,
-    "suggestedCraftsmanship": 1500
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1350,
-    "durability": 70,
-    "level": 350,
-    "maxQuality": 5200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 90,
     "progressModifier": 80,
@@ -28376,26 +27255,6 @@
     "level": 510,
     "maxQuality": 9500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
       "de": "Exarchen-Haube des Zielens",
       "en": "Exarchic Hood of Aiming",
       "fr": "Capuche de pisteur de l'exarchat",
@@ -28456,26 +27315,6 @@
     "level": 510,
     "maxQuality": 9500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
       "de": "Exarchen-Hauben des Spähens",
       "en": "Exarchic Hood of Scouting",
       "fr": "Capuche d'éclaireur de l'exarchat",
@@ -28520,26 +27359,6 @@
       "en": "Exarchic Bottoms of Scouting",
       "fr": "Bas-de-corps d'éclaireur de l'exarchat",
       "ja": "エクサーク・スカウトボトム"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -30057,7 +28876,7 @@
     "name": {
       "de": "Otterborn-Bauholz",
       "en": "Water Otter Fountain Lumber",
-      "fr": "Matériaux pour la fontaine ressourçante",
+      "fr": "Poutre pour la fontaine ressourçante",
       "ja": "ウソウソの泉の建築用部材"
     },
     "progressDivider": 180,
@@ -30995,6 +29814,546 @@
     "progressModifier": 100,
     "qualityDivider": 180,
     "qualityModifier": 100,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stirnband der Verteidigung",
+      "en": "Diadochos Headband of Fending",
+      "fr": "Bandeau de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーヘッドバンド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stirnband des Verstümmelns",
+      "en": "Diadochos Headband of Maiming",
+      "fr": "Bandeau d'abatteur de diadoque",
+      "ja": "ディアドコス・スレイヤーヘッドバンド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Jacke des Schlagens",
+      "en": "Diadochos Jacket of Striking",
+      "fr": "Jaque d'agresseur de diadoque",
+      "ja": "ディアドコス・ストライカージャケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Hose des Schlagens",
+      "en": "Diadochos Bottoms of Striking",
+      "fr": "Bas-de-corps d'agresseur de diadoque",
+      "ja": "ディアドコス・ストライカーボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Stirnband des Zielens",
+      "en": "Diadochos Headband of Aiming",
+      "fr": "Bandeau de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーヘッドバンド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Jacke des Spähens",
+      "en": "Diadochos Jacket of Scouting",
+      "fr": "Jaque d'éclaireur de diadoque",
+      "ja": "ディアドコス・スカウトジャケット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Hose des Spähens",
+      "en": "Diadochos Bottoms of Scouting",
+      "fr": "Bas-de-corps d'éclaireur de diadoque",
+      "ja": "ディアドコス・スカウトボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Barett der Heilung",
+      "en": "Diadochos Beret of Healing",
+      "fr": "Béret de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーベレー"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Mantel der Heilung",
+      "en": "Diadochos Coat of Healing",
+      "fr": "Manteau de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーコート"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Armschützer der Heilung",
+      "en": "Diadochos Armlets of Healing",
+      "fr": "Brassards de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーアームレット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Hose der Heilung",
+      "en": "Diadochos Bottoms of Healing",
+      "fr": "Bas-de-corps de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Barett der Magie",
+      "en": "Diadochos Beret of Casting",
+      "fr": "Béret d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターベレー"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Mantel der Magie",
+      "en": "Diadochos Coat of Casting",
+      "fr": "Manteau d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターコート"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Armschützer der Magie",
+      "en": "Diadochos Armlets of Casting",
+      "fr": "Brassards d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターアームレット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Hose der Magie",
+      "en": "Diadochos Bottoms of Casting",
+      "fr": "Bas-de-corps d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Granat-Baumwolle",
+      "en": "Garnet Cotton",
+      "fr": "Coton grenat",
+      "ja": "ガーネットコットン"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 8800,
+    "durability": 60,
+    "level": 641,
+    "maxQuality": 18040,
+    "name": {
+      "de": "Gymnastikutter-Bauholz",
+      "en": "Uncharted Course Lumber",
+      "fr": "Poutre pour l'accrobranche insulaire",
+      "ja": "アスレチックシップの建築用部材"
+    },
+    "progressDivider": 180,
+    "progressModifier": 100,
+    "qualityDivider": 180,
+    "qualityModifier": 100,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Einfache Schlafmaske",
+      "en": "Plain Pajama Eye Mask",
+      "fr": "Masque de nuit de pyjama",
+      "ja": "プレーンパジャマ・アイマスク"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Einfacher Schlafanzug",
+      "en": "Plain Pajama Shirt",
+      "fr": "Chemise de pyjama",
+      "ja": "プレーンパジャマ・シャツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Einfache Schlafhose",
+      "en": "Plain Pajama Bottoms",
+      "fr": "Pantalon de pyjama",
+      "ja": "プレーンパジャマ・ボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Kaktor-Schlafmaske",
+      "en": "Cactuar Pajama Eye Mask",
+      "fr": "Masque de nuit de pyjama pampa",
+      "ja": "サボテンダーパジャマ・アイマスク"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Kaktor-Schlafanzug",
+      "en": "Cactuar Pajama Shirt",
+      "fr": "Chemise de pyjama pampa",
+      "ja": "サボテンダーパジャマ・シャツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Kaktor-Schlafhose",
+      "en": "Cactuar Pajama Bottoms",
+      "fr": "Pantalon de pyjama pampa",
+      "ja": "サボテンダーパジャマ・ボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Chocobo-Schlafmaske",
+      "en": "Chocobo Pajama Eye Mask",
+      "fr": "Masque de nuit de pyjama chocobo",
+      "ja": "チョコボパジャマ・アイマスク"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Chocobo-Schlafanzug",
+      "en": "Chocobo Pajama Shirt",
+      "fr": "Chemise de pyjama chocobo",
+      "ja": "チョコボパジャマ・シャツ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Chocobo-Schlafhose",
+      "en": "Chocobo Pajama Bottoms",
+      "fr": "Pantalon de pyjama chocobo",
+      "ja": "チョコボパジャマ・ボトム"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Aufzieh-Barbarizia",
+      "en": "Wind-up Barbariccia",
+      "fr": "Barbariccia miniature",
+      "ja": "マメット・バルバリシア"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
     "stars": 3,
     "suggestedControl": 3280,
     "suggestedCraftsmanship": 3700

@@ -304,25 +304,6 @@
     "suggestedCraftsmanship": 67
   },
   {
-    "baseLevel": 11,
-    "difficulty": 48,
-    "durability": 60,
-    "level": 11,
-    "maxQuality": 270,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 33,
-    "suggestedCraftsmanship": 67
-  },
-  {
     "baseLevel": 12,
     "difficulty": 53,
     "durability": 60,
@@ -665,25 +646,6 @@
     "suggestedCraftsmanship": 82
   },
   {
-    "baseLevel": 19,
-    "difficulty": 68,
-    "durability": 70,
-    "level": 19,
-    "maxQuality": 480,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 41,
-    "suggestedCraftsmanship": 82
-  },
-  {
     "baseLevel": 20,
     "difficulty": 74,
     "durability": 70,
@@ -969,25 +931,6 @@
     "suggestedCraftsmanship": 99
   },
   {
-    "baseLevel": 24,
-    "difficulty": 85,
-    "durability": 70,
-    "level": 24,
-    "maxQuality": 630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 49,
-    "suggestedCraftsmanship": 99
-  },
-  {
     "baseLevel": 25,
     "difficulty": 89,
     "durability": 70,
@@ -1169,25 +1112,6 @@
       "en": "Steel Rings",
       "fr": "Anneaux en acier",
       "ja": "スチールリングズ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 53,
-    "suggestedCraftsmanship": 106
-  },
-  {
-    "baseLevel": 28,
-    "difficulty": 100,
-    "durability": 70,
-    "level": 28,
-    "maxQuality": 760,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -1393,25 +1317,6 @@
     "level": 31,
     "maxQuality": 900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 60,
-    "suggestedCraftsmanship": 121
-  },
-  {
-    "baseLevel": 31,
-    "difficulty": 106,
-    "durability": 80,
-    "level": 31,
-    "maxQuality": 900,
-    "name": {
       "de": "Bullen-Aspis",
       "en": "Bull Hoplon",
       "fr": "Hoplon taureau",
@@ -1549,25 +1454,6 @@
       "en": "Silver Alembic",
       "fr": "Alambic en argent",
       "ja": "シルバーアレンビック"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 34,
-    "difficulty": 115,
-    "durability": 80,
-    "level": 34,
-    "maxQuality": 1050,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2489,25 +2375,6 @@
     "suggestedCraftsmanship": 176
   },
   {
-    "baseLevel": 50,
-    "difficulty": 180,
-    "durability": 80,
-    "level": 50,
-    "maxQuality": 2000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 88,
-    "suggestedCraftsmanship": 176
-  },
-  {
     "baseLevel": 35,
     "difficulty": 123,
     "durability": 80,
@@ -2575,25 +2442,6 @@
       "en": "Mythril Celata",
       "fr": "Celata en mithril",
       "ja": "ミスリルチェラータ"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 64,
-    "suggestedCraftsmanship": 129
-  },
-  {
-    "baseLevel": 38,
-    "difficulty": 129,
-    "durability": 80,
-    "level": 38,
-    "maxQuality": 1280,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -2727,25 +2575,6 @@
       "en": "Electrum Alembic",
       "fr": "Alambic en électrum",
       "ja": "エレクトラムアレンビック"
-    },
-    "progressDivider": 50,
-    "progressModifier": 100,
-    "qualityDivider": 30,
-    "qualityModifier": 100,
-    "suggestedControl": 75,
-    "suggestedCraftsmanship": 150
-  },
-  {
-    "baseLevel": 43,
-    "difficulty": 155,
-    "durability": 80,
-    "level": 43,
-    "maxQuality": 1580,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 100,
@@ -3392,26 +3221,6 @@
       "en": "Darksteel Sollerets",
       "fr": "Solerets en sombracier",
       "ja": "ダークスチールソルレット"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 325,
-    "suggestedCraftsmanship": 325
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 250,
-    "durability": 80,
-    "level": 70,
-    "maxQuality": 2500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -4769,82 +4578,6 @@
     "suggestedCraftsmanship": 570
   },
   {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 53,
-    "difficulty": 300,
-    "durability": 80,
-    "level": 130,
-    "maxQuality": 2210,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 63,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 480,
-    "suggestedCraftsmanship": 519
-  },
-  {
-    "baseLevel": 56,
-    "difficulty": 420,
-    "durability": 70,
-    "level": 139,
-    "maxQuality": 2420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 66,
-    "progressModifier": 100,
-    "qualityDivider": 46,
-    "qualityModifier": 100,
-    "suggestedControl": 513,
-    "suggestedCraftsmanship": 550
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
     "baseLevel": 59,
     "difficulty": 540,
     "durability": 70,
@@ -5159,63 +4892,6 @@
       "en": "Adamantite Gauntlets of Maiming",
       "fr": "Gantelets d'abatteur en adamantium",
       "ja": "アダマンスレイヤーガントレット"
-    },
-    "progressDivider": 68,
-    "progressModifier": 100,
-    "qualityDivider": 48,
-    "qualityModifier": 100,
-    "suggestedControl": 535,
-    "suggestedCraftsmanship": 570
-  },
-  {
-    "baseLevel": 51,
-    "difficulty": 220,
-    "durability": 80,
-    "level": 115,
-    "maxQuality": 2070,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 61,
-    "progressModifier": 100,
-    "qualityDivider": 39,
-    "qualityModifier": 100,
-    "suggestedControl": 426,
-    "suggestedCraftsmanship": 468
-  },
-  {
-    "baseLevel": 53,
-    "difficulty": 300,
-    "durability": 80,
-    "level": 130,
-    "maxQuality": 2210,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 63,
-    "progressModifier": 100,
-    "qualityDivider": 43,
-    "qualityModifier": 100,
-    "suggestedControl": 480,
-    "suggestedCraftsmanship": 519
-  },
-  {
-    "baseLevel": 58,
-    "difficulty": 500,
-    "durability": 70,
-    "level": 145,
-    "maxQuality": 2560,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 68,
     "progressModifier": 100,
@@ -6048,25 +5724,6 @@
     "level": 265,
     "maxQuality": 2880,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
       "de": "Edelstahl-Barbuta des Verstümmelns",
       "en": "High Steel Barbut of Maiming",
       "fr": "Barbute d'abatteur en acier noble",
@@ -6135,25 +5792,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1005,
     "suggestedCraftsmanship": 1037
-  },
-  {
-    "baseLevel": 62,
-    "difficulty": 680,
-    "durability": 80,
-    "level": 265,
-    "maxQuality": 2880,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 82,
-    "progressModifier": 100,
-    "qualityDivider": 61,
-    "qualityModifier": 100,
-    "suggestedControl": 993,
-    "suggestedCraftsmanship": 1027
   },
   {
     "baseLevel": 65,
@@ -6232,25 +5870,6 @@
     "suggestedCraftsmanship": 1044
   },
   {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
     "baseLevel": 65,
     "difficulty": 830,
     "durability": 80,
@@ -6299,25 +5918,6 @@
       "en": "Doman Iron Greaves of Maiming",
       "fr": "Jambards d'abatteur en fer domien",
       "ja": "ドマアイアン・スレイヤーグリーヴ"
-    },
-    "progressDivider": 84,
-    "progressModifier": 100,
-    "qualityDivider": 65,
-    "qualityModifier": 100,
-    "suggestedControl": 1013,
-    "suggestedCraftsmanship": 1044
-  },
-  {
-    "baseLevel": 64,
-    "difficulty": 780,
-    "durability": 80,
-    "level": 273,
-    "maxQuality": 3060,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 84,
     "progressModifier": 100,
@@ -6637,25 +6237,6 @@
     "level": 285,
     "maxQuality": 3420,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
       "de": "Molybdän-Kopfbedeckung des Verstümmelns",
       "en": "Molybdenum Headgear of Maiming",
       "fr": "Protège-tête d'abatteur en molybdène",
@@ -6686,25 +6267,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1050,
     "suggestedCraftsmanship": 1075
-  },
-  {
-    "baseLevel": 68,
-    "difficulty": 980,
-    "durability": 80,
-    "level": 285,
-    "maxQuality": 3420,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 88,
-    "progressModifier": 100,
-    "qualityDivider": 68,
-    "qualityModifier": 100,
-    "suggestedControl": 1043,
-    "suggestedCraftsmanship": 1069
   },
   {
     "baseLevel": 69,
@@ -6743,44 +6305,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1050,
     "suggestedCraftsmanship": 1075
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
-  },
-  {
-    "baseLevel": 70,
-    "difficulty": 1080,
-    "durability": 80,
-    "level": 290,
-    "maxQuality": 3600,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 90,
-    "progressModifier": 100,
-    "qualityDivider": 70,
-    "qualityModifier": 100,
-    "suggestedControl": 1055,
-    "suggestedCraftsmanship": 1079
   },
   {
     "baseLevel": 61,
@@ -7454,143 +6978,10 @@
     "level": 390,
     "maxQuality": 3763,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
       "de": "Dunkelgold-Maske des Spähens",
       "en": "Deepgold Mask of Scouting",
       "fr": "Masque d'éclaireur en or incarnat",
       "ja": "ディープゴールド・スカウトマスク"
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 101,
-    "progressModifier": 100,
-    "qualityDivider": 81,
-    "qualityModifier": 100,
-    "suggestedControl": 1220,
-    "suggestedCraftsmanship": 1320
-  },
-  {
-    "baseLevel": 71,
-    "difficulty": 1195,
-    "durability": 80,
-    "level": 390,
-    "maxQuality": 3763,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 101,
     "progressModifier": 100,
@@ -7676,25 +7067,6 @@
     "suggestedCraftsmanship": 1388
   },
   {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
     "baseLevel": 73,
     "difficulty": 1290,
     "durability": 80,
@@ -7743,120 +7115,6 @@
       "en": "Deepgold Sollerets of Maiming",
       "fr": "Solerets d'abatteur en or incarnat",
       "ja": "ディープゴールド・スレイヤーソルレット"
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 102,
-    "progressModifier": 100,
-    "qualityDivider": 82,
-    "qualityModifier": 100,
-    "suggestedControl": 1284,
-    "suggestedCraftsmanship": 1388
-  },
-  {
-    "baseLevel": 72,
-    "difficulty": 1220,
-    "durability": 80,
-    "level": 395,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 102,
     "progressModifier": 100,
@@ -7967,25 +7225,6 @@
     "level": 403,
     "maxQuality": 4000,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
       "de": "Seelenazurit-Helm des Verstümmelns",
       "en": "Bluespirit Helm of Maiming",
       "fr": "Casque d'abatteur en azuresprit",
@@ -8062,101 +7301,6 @@
     "level": 403,
     "maxQuality": 4000,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
       "de": "Seelenazurit-Kopfbedeckung der Magie",
       "en": "Bluespirit Headgear of Casting",
       "fr": "Protège-tête d'incantateur en azuresprit",
@@ -8180,25 +7324,6 @@
       "en": "Bluespirit Greaves of Casting",
       "fr": "Jambards d'incantateur en azuresprit",
       "ja": "ブルースピリット・キャスターグリーヴ"
-    },
-    "progressDivider": 104,
-    "progressModifier": 100,
-    "qualityDivider": 84,
-    "qualityModifier": 100,
-    "suggestedControl": 1387,
-    "suggestedCraftsmanship": 1498
-  },
-  {
-    "baseLevel": 74,
-    "difficulty": 1360,
-    "durability": 80,
-    "level": 403,
-    "maxQuality": 4000,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 104,
     "progressModifier": 100,
@@ -8233,143 +7358,10 @@
     "level": 409,
     "maxQuality": 4200,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
       "de": "Titanbronze-Stirnband des Spähens",
       "en": "Titanbronze Headband of Scouting",
       "fr": "Bandeau d'éclaireur en bronze titané",
       "ja": "チタンブロンズ・スカウトヘッドバンド"
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 106,
-    "progressModifier": 100,
-    "qualityDivider": 86,
-    "qualityModifier": 100,
-    "suggestedControl": 1464,
-    "suggestedCraftsmanship": 1580
-  },
-  {
-    "baseLevel": 76,
-    "difficulty": 1500,
-    "durability": 80,
-    "level": 409,
-    "maxQuality": 4200,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 106,
     "progressModifier": 100,
@@ -8461,25 +7453,6 @@
     "level": 415,
     "maxQuality": 4400,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 108,
-    "progressModifier": 100,
-    "qualityDivider": 88,
-    "qualityModifier": 100,
-    "suggestedControl": 1541,
-    "suggestedCraftsmanship": 1662
-  },
-  {
-    "baseLevel": 78,
-    "difficulty": 1640,
-    "durability": 80,
-    "level": 415,
-    "maxQuality": 4400,
-    "name": {
       "de": "Edelmithril-Helm des Verstümmelns",
       "en": "Dwarven Mythril Helm of Maiming",
       "fr": "Casque d'abatteur en mithril noble",
@@ -8537,25 +7510,6 @@
     "level": 415,
     "maxQuality": 4400,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 108,
-    "progressModifier": 100,
-    "qualityDivider": 88,
-    "qualityModifier": 100,
-    "suggestedControl": 1541,
-    "suggestedCraftsmanship": 1662
-  },
-  {
-    "baseLevel": 78,
-    "difficulty": 1640,
-    "durability": 80,
-    "level": 415,
-    "maxQuality": 4400,
-    "name": {
       "de": "Edelmithril-Helm des Schlagens",
       "en": "Dwarven Mythril Helm of Striking",
       "fr": "Casque d'agresseur en mithril noble",
@@ -8588,25 +7542,6 @@
     "suggestedCraftsmanship": 1662
   },
   {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
-  },
-  {
     "baseLevel": 78,
     "difficulty": 1640,
     "durability": 80,
@@ -8626,25 +7561,6 @@
     "suggestedCraftsmanship": 1662
   },
   {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
-  },
-  {
     "baseLevel": 78,
     "difficulty": 1640,
     "durability": 80,
@@ -8662,63 +7578,6 @@
     "qualityModifier": 100,
     "suggestedControl": 1541,
     "suggestedCraftsmanship": 1662
-  },
-  {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
-  },
-  {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
-  },
-  {
-    "baseLevel": 79,
-    "difficulty": 1710,
-    "durability": 80,
-    "level": 418,
-    "maxQuality": 4500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 109,
-    "progressModifier": 100,
-    "qualityDivider": 89,
-    "qualityModifier": 100,
-    "suggestedControl": 1579,
-    "suggestedCraftsmanship": 1702
   },
   {
     "baseLevel": 71,
@@ -10963,6 +9822,63 @@
     "suggestedCraftsmanship": 2805
   },
   {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Metallröhren-Wandregal",
+      "en": "Metal Pipe Wall Shelf",
+      "fr": "Étagère murale de tuyaux métalliques",
+      "ja": "メタルパイプ・ウォールシェルフ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "„Verbotene Tür“-Imitation ",
+      "en": "Imitation Closed Door",
+      "fr": "Imitation de porte fermée",
+      "ja": "イミテーション・クローズドドア"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 3500,
+    "durability": 80,
+    "level": 560,
+    "maxQuality": 7200,
+    "name": {
+      "de": "Topfregal",
+      "en": "Wall-mounted Pot Rack",
+      "fr": "Porte-casseroles",
+      "ja": "ポットハンガー"
+    },
+    "progressDivider": 130,
+    "progressModifier": 90,
+    "qualityDivider": 115,
+    "qualityModifier": 80,
+    "suggestedControl": 2635,
+    "suggestedCraftsmanship": 2805
+  },
+  {
     "baseLevel": 30,
     "difficulty": 51,
     "durability": 70,
@@ -11430,26 +10346,6 @@
     "level": 90,
     "maxQuality": 2750,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
       "de": "Wolfram-Maske",
       "en": "Wolfram Mask",
       "fr": "Masque en tungstène",
@@ -11514,26 +10410,6 @@
       "en": "Wolfram Sabatons",
       "fr": "Sabatons en tungstène",
       "ja": "ウォルフラムサバトン"
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 374,
-    "suggestedCraftsmanship": 391
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 420,
-    "durability": 80,
-    "level": 90,
-    "maxQuality": 2750,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 50,
     "progressModifier": 80,
@@ -12604,26 +11480,6 @@
     "level": 110,
     "maxQuality": 2900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 50,
-    "progressModifier": 80,
-    "qualityDivider": 30,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 407,
-    "suggestedCraftsmanship": 451
-  },
-  {
-    "baseLevel": 50,
-    "difficulty": 480,
-    "durability": 80,
-    "level": 110,
-    "maxQuality": 2900,
-    "name": {
       "de": "Wootz-Maske",
       "en": "Wootz Mask",
       "fr": "Masque en wootz",
@@ -12931,25 +11787,6 @@
     "stars": 2,
     "suggestedControl": 695,
     "suggestedCraftsmanship": 718
-  },
-  {
-    "baseLevel": 59,
-    "difficulty": 540,
-    "durability": 70,
-    "level": 148,
-    "maxQuality": 2630,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 69,
-    "progressModifier": 100,
-    "qualityDivider": 49,
-    "qualityModifier": 100,
-    "suggestedControl": 546,
-    "suggestedCraftsmanship": 580
   },
   {
     "baseLevel": 60,
@@ -14306,66 +13143,6 @@
   },
   {
     "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 880,
-    "durability": 70,
-    "level": 210,
-    "maxQuality": 3300,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 820,
-    "suggestedCraftsmanship": 850
-  },
-  {
-    "baseLevel": 60,
     "difficulty": 740,
     "durability": 70,
     "level": 180,
@@ -15265,26 +14042,6 @@
     "level": 250,
     "maxQuality": 3800,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
       "de": "Schwermetall-Bundhaube des Verstümmelns",
       "en": "Heavy Metal Coif of Maiming",
       "fr": "Coiffe en mailles d'abatteur en alliage de tungstène",
@@ -15349,86 +14106,6 @@
       "en": "Heavy Metal Sabatons of Maiming",
       "fr": "Sabatons d'abatteur en alliage de tungstène",
       "ja": "ヘヴィアロイ・スレイヤーサバトン"
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 70,
-    "progressModifier": 80,
-    "qualityDivider": 50,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 955,
-    "suggestedCraftsmanship": 995
-  },
-  {
-    "baseLevel": 60,
-    "difficulty": 1000,
-    "durability": 70,
-    "level": 250,
-    "maxQuality": 3800,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 70,
     "progressModifier": 80,
@@ -18138,26 +16815,6 @@
     "level": 450,
     "maxQuality": 7900,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
       "de": "Manufaktur-Stirnreif des Verstümmelns",
       "en": "Facet Circlet of Maiming",
       "fr": "Diadème d'abatteur de la halle",
@@ -18222,126 +16879,6 @@
       "en": "Facet Sabatons of Maiming",
       "fr": "Sabatons d'abatteur de la halle",
       "ja": "ミーン・スレイヤーサバトン"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 2,
-    "suggestedControl": 1990,
-    "suggestedCraftsmanship": 2140
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2050,
-    "durability": 70,
-    "level": 450,
-    "maxQuality": 7900,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -19362,26 +17899,6 @@
     "level": 480,
     "maxQuality": 8500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
       "de": "Neo-Ishgarder Oberteil des Verstümmelns",
       "en": "Neo-Ishgardian Top of Maiming",
       "fr": "Haut-de-corps d'abatteur néo-ishgardais",
@@ -19406,26 +17923,6 @@
       "en": "Neo-Ishgardian Gloves of Maiming",
       "fr": "Gants d'abatteur néo-ishgardais",
       "ja": "ネオイシュガルディアン・スレイヤーグローブ"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 3,
-    "suggestedControl": 2195,
-    "suggestedCraftsmanship": 2480
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 2800,
-    "durability": 70,
-    "level": 480,
-    "maxQuality": 8500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -20967,26 +19464,6 @@
     "level": 510,
     "maxQuality": 9500,
     "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
       "de": "Exarchen-Stirnreif des Verstümmelns",
       "en": "Exarchic Circlet of Maiming",
       "fr": "Diadème d'abatteur de l'exarchat",
@@ -21051,66 +19528,6 @@
       "en": "Exarchic Sabatons of Maiming",
       "fr": "Sabatons d'abatteur de l'exarchat",
       "ja": "エクサーク・スレイヤーサバトン"
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
-    },
-    "progressDivider": 110,
-    "progressModifier": 80,
-    "qualityDivider": 90,
-    "qualityModifier": 70,
-    "stars": 4,
-    "suggestedControl": 2540,
-    "suggestedCraftsmanship": 2620
-  },
-  {
-    "baseLevel": 80,
-    "difficulty": 3600,
-    "durability": 70,
-    "level": 510,
-    "maxQuality": 9500,
-    "name": {
-      "de": null,
-      "en": null,
-      "fr": null,
-      "ja": null
     },
     "progressDivider": 110,
     "progressModifier": 80,
@@ -23206,6 +21623,326 @@
     "progressModifier": 100,
     "qualityDivider": 180,
     "qualityModifier": 100,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Schild",
+      "en": "Diadochos Shield",
+      "fr": "Bouclier de diadoque",
+      "ja": "ディアドコス・シールド"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Kurzfingerhandschuhe der Verteidigung",
+      "en": "Diadochos Halfgloves of Fending",
+      "fr": "Mitaines de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーハーフグローブ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Knieschützer der Verteidigung",
+      "en": "Diadochos Poleyns of Fending",
+      "fr": "Genouillères de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーポレイン"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Kurzfingerhandschuhe des Verstümmelns",
+      "en": "Diadochos Halfgloves of Maiming",
+      "fr": "Mitaines d'abatteur de diadoque",
+      "ja": "ディアドコス・スレイヤーハーフグローブ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Knieschützer des Verstümmelns",
+      "en": "Diadochos Poleyns of Maiming",
+      "fr": "Genouillères d'abatteur de diadoque",
+      "ja": "ディアドコス・スレイヤーポレイン"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Kurzfingerhandschuhe des Zielens",
+      "en": "Diadochos Halfgloves of Aiming",
+      "fr": "Mitaines de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーハーフグローブ"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Knieschützer des Zielens",
+      "en": "Diadochos Poleyns of Aiming",
+      "fr": "Genouillères de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーポレイン"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ohrring der Verteidigung",
+      "en": "Diadochos Earring of Fending",
+      "fr": "Boucle d'oreille de protecteur de diadoque",
+      "ja": "ディアドコス・ディフェンダーイヤリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ohrring des Schlachtens",
+      "en": "Diadochos Earring of Slaying",
+      "fr": "Boucle d'oreille d'attaquant de diadoque",
+      "ja": "ディアドコス・アタッカーイヤリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ohrring des Zielens",
+      "en": "Diadochos Earring of Aiming",
+      "fr": "Boucle d'oreille de pisteur de diadoque",
+      "ja": "ディアドコス・レンジャーイヤリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ohrring der Heilung",
+      "en": "Diadochos Earring of Healing",
+      "fr": "Boucle d'oreille de soigneur de diadoque",
+      "ja": "ディアドコス・ヒーラーイヤリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 6600,
+    "durability": 70,
+    "level": 640,
+    "maxQuality": 14040,
+    "name": {
+      "de": "Diadochen-Ohrring der Magie",
+      "en": "Diadochos Earring of Casting",
+      "fr": "Boucle d'oreille d'incantateur de diadoque",
+      "ja": "ディアドコス・キャスターイヤリング"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4488,
+    "durability": 35,
+    "level": 640,
+    "maxQuality": 9090,
+    "name": {
+      "de": "Weichsilber-Barren",
+      "en": "Softsilver Ingot",
+      "fr": "Lingot d'argent ductile",
+      "ja": "ソフトシルバーインゴット"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 8800,
+    "durability": 60,
+    "level": 641,
+    "maxQuality": 18040,
+    "name": {
+      "de": "Gymnastikutter-Metallteile",
+      "en": "Uncharted Course Hardware",
+      "fr": "Métal pour l'accrobranche insulaire",
+      "ja": "アスレチックシップの建築用金属材"
+    },
+    "progressDivider": 180,
+    "progressModifier": 100,
+    "qualityDivider": 180,
+    "qualityModifier": 100,
+    "stars": 4,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Harnisch des Schwarzen Ritters",
+      "en": "Voidcast Barding",
+      "fr": "Barde de Golbez",
+      "ja": "ゴルベーザ・バード"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
+    "stars": 3,
+    "suggestedControl": 3280,
+    "suggestedCraftsmanship": 3700
+  },
+  {
+    "baseLevel": 90,
+    "difficulty": 4400,
+    "durability": 70,
+    "level": 610,
+    "maxQuality": 8200,
+    "name": {
+      "de": "Statue des Fluten-Elementarfürst",
+      "en": "Drowned King Sculpture",
+      "fr": "Statuette du maître de l'eau",
+      "ja": "水禍の四天王像"
+    },
+    "progressDivider": 130,
+    "progressModifier": 80,
+    "qualityDivider": 115,
+    "qualityModifier": 70,
     "stars": 3,
     "suggestedControl": 3280,
     "suggestedCraftsmanship": 3700
