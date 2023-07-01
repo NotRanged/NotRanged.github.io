@@ -14,7 +14,8 @@
       scope: {
         sequence: '=',
         cls: '=',
-        options: '='
+        options: '=',
+        recipe: '='
       },
       controller: controller
     }
@@ -85,7 +86,7 @@
         if (info.isCombo) {
           for (var comboNumber = 0; comboNumber < info.comboActions.length; comboNumber++) {
             infoList.push(_actionsByName[info.comboActions[comboNumber]]);
-          } 
+          }
         } else {
           infoList.push(info);
         }
@@ -118,10 +119,18 @@
       var macroTime = 0;
       var macroIndex = 1;
 
+//      macroString += '/micon\n';
       if (options.includeMacroLock) {
         macroString += '/macrolock\n';
           macroLineCount++;
       }
+//      Lets put this on pause until I get the correct output from the console log
+//      I don't know what the hell I am doing
+//      Maybe I did, but just didn't know I knew I what I was doing
+      if (options.includeMicon) {
+        macroString += "/micon " + $scope.cls + " classjob\n";  // I know this should be a f-string but I am done if this works.
+          macroLineCount++;
+        } // Obviously don't know what I'm doing!
 
       for (var j = 0; j < lines.length; j++) {
         var line = lines[j];

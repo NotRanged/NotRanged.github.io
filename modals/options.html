@@ -1,379 +1,460 @@
 <div class="modal-header">
-  <h3>{{ 'OPTIONS' | translate }}</h3>
+    <h3>{{ 'OPTIONS' | translate }}</h3>
 </div>
 
 <div class="modal-body" isolate-scrolling>
-  <form name="allOptionsForm">
-    <tabset>
+    <form name="allOptionsForm">
+        <tabset>
 
-      <tab heading="{{ 'NAV_SOLVER' | translate }}" active="pageState.options.tabs.solver.active">
-        <form name="solverOptionsForm">
+            <tab active="pageState.options.tabs.solver.active" heading="{{ 'NAV_SOLVER' | translate }}">
+                <form name="solverOptionsForm">
 
-          <div class="row-fluid">
-            <div class="span6">
-              <div class="control-group" ng-class="{error: solverOptionsForm.maxTricksUses.$invalid}">
-                <label class="control-label">{{ 'MAX_TRICKS' | translate }}</label>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="control-group" ng-class="{error: solverOptionsForm.maxTricksUses.$invalid}">
+                                <label class="control-label">{{ 'MAX_TRICKS' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="maxTricksUses"
-                         ng-model="sequenceSettings.maxTricksUses" min="0" required
-                         tooltip="{{ 'MAX_TRICKS_INFO' | translate }}"
-                         tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="0" name="maxTricksUses"
+                                           ng-model="sequenceSettings.maxTricksUses" required
+                                           tooltip="{{ 'MAX_TRICKS_INFO' | translate }}"
+                                           tooltip-placement="right"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.reliabilityPercent.$invalid}">
-                <label class="control-label">{{ 'RELIABILITY_OPTIONS' | translate }}</label>
+                            <div class="control-group"
+                                 ng-class="{error: solverOptionsForm.reliabilityPercent.$invalid}">
+                                <label class="control-label">{{ 'RELIABILITY_OPTIONS' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="reliabilityPercent"
-                         ng-model="sequenceSettings.reliabilityPercent" min="1" max="100" required
-                         tooltip="{{ 'RELIABILITY_INFO' | translate }}"
-                         tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" max="100" min="1"
+                                           name="reliabilityPercent" ng-model="sequenceSettings.reliabilityPercent"
+                                           required tooltip="{{ 'RELIABILITY_INFO' | translate }}"
+                                           tooltip-placement="right"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group">
-                <div class="controls">
-                  <label class="checkbox" tooltip="{{ 'LIMIT_MAX_LENGTH_INFO' | translate }}" tooltip-placement="right">
-                    <input type="checkbox" ng-model="sequenceSettings.maxLengthEnabled"/>{{ 'LIMIT_MAX_LENGTH' | translate }}
-                  </label>
-                </div>
-              </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <label class="checkbox" tooltip="{{ 'LIMIT_MAX_LENGTH_INFO' | translate }}"
+                                           tooltip-placement="right">
+                                        <input ng-model="sequenceSettings.maxLengthEnabled" type="checkbox"/>{{
+                                        'LIMIT_MAX_LENGTH' | translate }}
+                                    </label>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: sequenceSettings.maxLengthEnabled && solverOptionsForm.maxLength.$invalid}">
-                <label class="control-label">{{ 'MAX_LENGTH' | translate }}</label>
+                            <div class="control-group"
+                                 ng-class="{error: sequenceSettings.maxLengthEnabled && solverOptionsForm.maxLength.$invalid}">
+                                <label class="control-label">{{ 'MAX_LENGTH' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="maxLength" ng-model="sequenceSettings.maxLength"
-                         ng-disabled="!sequenceSettings.maxLengthEnabled" min="1" ng-required="sequenceSettings.maxLengthEnabled"
-                         tooltip="{{ 'MAX_LENGTH_INFO' | translate }}"
-                         tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="maxLength"
+                                           ng-disabled="!sequenceSettings.maxLengthEnabled"
+                                           ng-model="sequenceSettings.maxLength"
+                                           ng-required="sequenceSettings.maxLengthEnabled"
+                                           tooltip="{{ 'MAX_LENGTH_INFO' | translate }}"
+                                           tooltip-placement="right"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group">
-                <div class="controls">
-                  <label class="checkbox" tooltip="Ticking this option makes the solver ignore quality, and instead tried to optimize for finishing progress with as much durability and CP remaining as possible. Actions that normally regenerate or preserve durability (e.g. MM, manipulation) are practically disabled." tooltip-placement="right">
-                    <input type="checkbox" ng-model="solver.solveForCompletion"/>Solve for Completion only
-                  </label>
-                </div>
-              </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <label class="checkbox"
+                                           tooltip="Ticking this option makes the solver ignore quality, and instead tried to optimize for finishing progress with as much durability and CP remaining as possible. Actions that normally regenerate or preserve durability (e.g. MM, manipulation) are practically disabled."
+                                           tooltip-placement="right">
+                                        <input ng-model="solver.solveForCompletion" type="checkbox"/>Solve for
+                                        Completion only
+                                    </label>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solver.solveForCompletion && solver.remainderCPFitnessValue.$invalid}">
-                <label class="control-label">CP remainder fitness value</label>
+                            <div class="control-group"
+                                 ng-class="{error: solver.solveForCompletion && solver.remainderCPFitnessValue.$invalid}">
+                                <label class="control-label">CP remainder fitness value</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="maxLength" ng-model="solver.remainderCPFitnessValue"
-                         ng-disabled="!solver.solveForCompletion" min="1" ng-required="solver.solveForCompletion"
-                         tooltip="The fitness value reward for each remaining point of CP after the craft is completed. Balance this with the fitness reward for remaining durability to optimize for your desired result."
-                         tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="maxLength"
+                                           ng-disabled="!solver.solveForCompletion"
+                                           ng-model="solver.remainderCPFitnessValue"
+                                           ng-required="solver.solveForCompletion"
+                                           tooltip="The fitness value reward for each remaining point of CP after the craft is completed. Balance this with the fitness reward for remaining durability to optimize for your desired result."
+                                           tooltip-placement="right"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solver.solveForCompletion && solver.remainderDurFitnessValue.$invalid}">
-                <label class="control-label">Durability remainder fitness value</label>
+                            <div class="control-group"
+                                 ng-class="{error: solver.solveForCompletion && solver.remainderDurFitnessValue.$invalid}">
+                                <label class="control-label">Durability remainder fitness value</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="maxLength" ng-model="solver.remainderDurFitnessValue"
-                         ng-disabled="!solver.solveForCompletion" min="1" ng-required="solver.solveForCompletion"
-                         tooltip="The fitness value reward for each remaining point of durability after the craft is completed. Balance this with the fitness reward for remaining CP to optimize for your desired result."
-                         tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="maxLength"
+                                           ng-disabled="!solver.solveForCompletion"
+                                           ng-model="solver.remainderDurFitnessValue"
+                                           ng-required="solver.solveForCompletion"
+                                           tooltip="The fitness value reward for each remaining point of durability after the craft is completed. Balance this with the fitness reward for remaining CP to optimize for your desired result."
+                                           tooltip-placement="right"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-            </div>
-            <div class="span6">
+                        </div>
+                        <div class="span6">
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.algorithm.$invalid}">
-                <label class="control-label">{{ 'ALGORITHM_OPTIONS' | translate }}</label>
+                            <div class="control-group" ng-class="{error: solverOptionsForm.algorithm.$invalid}">
+                                <label class="control-label">{{ 'ALGORITHM_OPTIONS' | translate }}</label>
 
-                <div class="controls">
-                  <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required
-                          tooltip="{{ 'ALGORITHM_INFO' | translate }}"
-                          tooltip-placement="left">
-                    <option>eaComplex</option>
-                  </select>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <select class="input-medium" name="algorithm" ng-model="solver.algorithm" required
+                                            tooltip="{{ 'ALGORITHM_INFO' | translate }}"
+                                            tooltip-placement="left">
+                                        <option>eaComplex</option>
+                                    </select>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.population.$invalid}">
-                <label class="control-label">{{ 'POPULATION_OPTIONS' | translate }}</label>
+                            <div class="control-group" ng-class="{error: solverOptionsForm.population.$invalid}">
+                                <label class="control-label">{{ 'POPULATION_OPTIONS' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="population" ng-model="solver.population" min="1" required
-                         tooltip="{{ 'POPULATION_INFO' | translate }}"
-                         tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="population"
+                                           ng-model="solver.population" required
+                                           tooltip="{{ 'POPULATION_INFO' | translate }}"
+                                           tooltip-placement="left"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.subpopulations.$invalid}">
-                <label class="control-label">Subpopulations</label>
+                            <div class="control-group" ng-class="{error: solverOptionsForm.subpopulations.$invalid}">
+                                <label class="control-label">Subpopulations</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="subpopulations" ng-model="solver.subPopulations" min="1" required
-                         tooltip="Amount of groups to divide the population within the solver into."
-                         tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="subpopulations"
+                                           ng-model="solver.subPopulations" required
+                                           tooltip="Amount of groups to divide the population within the solver into."
+                                           tooltip-placement="left"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.maxStagnationCounter.$invalid}">
-                <label class="control-label">Max Stagnation Counter</label>
+                            <div class="control-group"
+                                 ng-class="{error: solverOptionsForm.maxStagnationCounter.$invalid}">
+                                <label class="control-label">Max Stagnation Counter</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="maxStagnationCounter" ng-model="solver.maxStagnationCounter" min="1" required
-                         tooltip="After this many  generations pass, the subpopulation gets wiped back to the initial guess state. This number is multiplied by 3 for the current leading subpopulation, so it has a chance to roll rare mutations. You can hit F12 and view console to view stats about the current subpopulations while the solver is running."
-                         tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="maxStagnationCounter"
+                                           ng-model="solver.maxStagnationCounter" required
+                                           tooltip="After this many  generations pass, the subpopulation gets wiped back to the initial guess state. This number is multiplied by 3 for the current leading subpopulation, so it has a chance to roll rare mutations. You can hit F12 and view console to view stats about the current subpopulations while the solver is running."
+                                           tooltip-placement="left"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.generations.$invalid}">
-                <label class="control-label">{{ 'GENERATIONS_OPTIONS' | translate }}</label>
+                            <div class="control-group" ng-class="{error: solverOptionsForm.generations.$invalid}">
+                                <label class="control-label">{{ 'GENERATIONS_OPTIONS' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="generations" ng-model="solver.generations" min="1" required
-                         tooltip="{{ 'GENERATIONS_INFO' | translate }}"
-                         tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="generations"
+                                           ng-model="solver.generations" required
+                                           tooltip="{{ 'GENERATIONS_INFO' | translate }}"
+                                           tooltip-placement="left"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group" ng-class="{error: solverOptionsForm.penaltyWeight.$invalid}">
-                <label class="control-label">{{ 'PENALTY_OPTIONS' | translate }}</label>
+                            <div class="control-group" ng-class="{error: solverOptionsForm.penaltyWeight.$invalid}">
+                                <label class="control-label">{{ 'PENALTY_OPTIONS' | translate }}</label>
 
-                <div class="controls">
-                  <input class="input-small" type="number" name="penaltyWeight" ng-model="solver.penaltyWeight" min="1" required
-                         tooltip="{{ 'PENALTY_INFO' | translate }}"
-                         tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-small" min="1" name="penaltyWeight"
+                                           ng-model="solver.penaltyWeight" required
+                                           tooltip="{{ 'PENALTY_INFO' | translate }}"
+                                           tooltip-placement="left"
+                                           type="number"/>
+                                </div>
+                            </div>
 
-            </div>
-          </div>
+                        </div>
+                    </div>
 
 
-        </form>
-      </tab>
+                </form>
+            </tab>
 
-      <tab heading="{{ 'MACRO' | translate }}" active="pageState.options.tabs.macro.active">
-        <form name="macroOptionsForm">
+            <tab active="pageState.options.tabs.macro.active" heading="{{ 'MACRO' | translate }}">
+                <form name="macroOptionsForm">
 
-          <div class="row-fluid">
-            <div class="span6">
-              <div class="control-group">
-                <label for="macros.waitTime" class="control-label">{{ 'WAIT_TIME' | translate }}</label>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="control-group">
+                                <label class="control-label" for="macros.waitTime">{{ 'WAIT_TIME' | translate }}</label>
 
-                <div class="controls">
-                  <input id="macros.waitTime" class="input-mini" type="number" ng-model="macroOptions.waitTime" min="1" required
-                         tooltip="{{ 'WAIT_TIME_INFO' | translate }}" tooltip-placement="right"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-mini" id="macros.waitTime" min="1"
+                                           ng-model="macroOptions.waitTime" required
+                                           tooltip="{{ 'WAIT_TIME_INFO' | translate }}"
+                                           tooltip-placement="right" type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group">
-                <label for="macros.buffWaitTime" class="control-label">{{ 'BUFF_WAIT_TIME' | translate }}</label>
+                            <div class="control-group">
+                                <label class="control-label" for="macros.buffWaitTime">{{ 'BUFF_WAIT_TIME' | translate
+                                    }}</label>
 
-                <div class="controls">
-                  <input id="macros.buffWaitTime" class="input-mini" type="number" ng-model="macroOptions.buffWaitTime" min="1" required
-                         tooltip="{{ 'BUFF_WAIT_TIME_INFO' | translate }}" tooltip-placement="right"/>
-                </div>
-              </div>
-            </div>
+                                <div class="controls">
+                                    <input class="input-mini" id="macros.buffWaitTime" min="1"
+                                           ng-model="macroOptions.buffWaitTime" required
+                                           tooltip="{{ 'BUFF_WAIT_TIME_INFO' | translate }}"
+                                           tooltip-placement="right" type="number"/>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="span6">
-              <label class="checkbox" tooltip="{{ 'STEP_SOUND_ENABLED_INFO' | translate}}" tooltip-placement="left">
-                <input type="checkbox" name="setupSoundEnabled" ng-model="macroOptions.stepSoundEnabled"/>
-                {{ 'STEP_SOUND_ENABLED' | translate }}
-              </label>
-              <br/>
+                        <div class="span6">
+                            <label class="checkbox" tooltip="{{ 'STEP_SOUND_ENABLED_INFO' | translate}}"
+                                   tooltip-placement="left">
+                                <input name="setupSoundEnabled" ng-model="macroOptions.stepSoundEnabled"
+                                       type="checkbox"/>
+                                {{ 'STEP_SOUND_ENABLED' | translate }}
+                            </label>
+                            <br/>
 
-              <div class="control-group">
-                <label for="macros.stepSoundEffect" class="control-label" ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'STEP_SOUND_EFFECT' | translate }}</label>
+                            <div class="control-group">
+                                <label class="control-label" for="macros.stepSoundEffect"
+                                       ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'STEP_SOUND_EFFECT' |
+                                    translate }}</label>
 
-                <div class="controls">
-                  <input id="macros.stepSoundEffect" class="input-mini" type="number"
-                         ng-model="macroOptions.stepSoundEffect"
-                         min="1" max="16" required
-                         ng-disabled="!macroOptions.stepSoundEnabled"
-                         tooltip="{{ 'STEP_SOUND_INFO' | translate }}" tooltip-placement="left"/>
-                </div>
-              </div>
+                                <div class="controls">
+                                    <input class="input-mini" id="macros.stepSoundEffect" max="16"
+                                           min="1"
+                                           ng-disabled="!macroOptions.stepSoundEnabled"
+                                           ng-model="macroOptions.stepSoundEffect" required
+                                           tooltip="{{ 'STEP_SOUND_INFO' | translate }}"
+                                           tooltip-placement="left" type="number"/>
+                                </div>
+                            </div>
 
-              <div class="control-group">
-                <label for="macros.finishSoundEffect" class="control-label" ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'FINISH_SOUND_EFFECT' | translate }}</label>
+                            <div class="control-group">
+                                <label class="control-label" for="macros.finishSoundEffect"
+                                       ng-class="{ disabled: !macroOptions.stepSoundEnabled }">{{ 'FINISH_SOUND_EFFECT'
+                                    | translate }}</label>
 
-                <div class="controls">
-                  <input id="macros.finishSoundEffect" class="input-mini" type="number"
-                         ng-model="macroOptions.finishSoundEffect"
-                         min="1" max="16" required
-                         ng-disabled="!macroOptions.stepSoundEnabled"
-                         tooltip="{{ 'FINISH_SOUND_INFO' | translate }}" tooltip-placement="left"/>
-                </div>
-              </div>
-            </div>
+                                <div class="controls">
+                                    <input class="input-mini" id="macros.finishSoundEffect" max="16"
+                                           min="1"
+                                           ng-disabled="!macroOptions.stepSoundEnabled"
+                                           ng-model="macroOptions.finishSoundEffect" required
+                                           tooltip="{{ 'FINISH_SOUND_INFO' | translate }}"
+                                           tooltip-placement="left" type="number"/>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="row-fluid">
-              <div class="span12">
-                <div class="control-group">
-                  <div class="controls">
-                    <label class="checkbox" tooltip="{{ 'MACRO_LOCK_INFO' | translate }}" tooltip-placement="top">
-                      <input type="checkbox" name="includeMacroLock" ng-model="macroOptions.includeMacroLock"/>
-                      {{ 'MACRO_INCLUDE_LOCK' | translate }}
-                    </label>
-                  </div>
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <label class="checkbox" tooltip="{{ 'MACRO_LOCK_INFO' | translate }}"
+                                               tooltip-placement="top">
+                                            <input name="includeMacroLock" ng-model="macroOptions.includeMacroLock"
+                                                   type="checkbox"/>
+                                            {{ 'MACRO_INCLUDE_LOCK' | translate }}
+                                        </label>
+                                    </div>
 
-                  <div class="controls">
-                    <label class="checkbox" tooltip="{{ 'NEXT_MACRO_INFO' | translate }}" tooltip-placement="top">
-                      <input type="checkbox" name="nextMacroOption" ng-model="macroOptions.useNextMacro"/>
-                      {{ 'MACRO_NEXTMACRO' | translate }}
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
-      </tab>
+                                    <div class="row-fluid">
+                                        <div class="span12">
+                                            <div class="control-group">
+                                                <div class="controls">
+                                                    <label class="checkbox" tooltip="Add class icon to macro"
+                                                           tooltip-placement="top">
+                                                        <input name="includeMicon"
+                                                               ng-model="macroOptions.includeMicon"
+                                                               type="checkbox"/>
+                                                        "Add class icon to macro"
+                                                    </label>
+                                                </div>
 
-      <tab heading="{{ 'NAV_DEBUG' | translate }}" active="pageState.options.tabs.debugging.active">
-        <form name="generalOptionsForm">
+                                                <div class="controls">
+                                                    <label class="checkbox"
+                                                           tooltip="{{ 'NEXT_MACRO_INFO' | translate }}"
+                                                           tooltip-placement="top">
+                                                        <input name="nextMacroOption"
+                                                               ng-model="macroOptions.useNextMacro"
+                                                               type="checkbox"/>
+                                                        {{ 'MACRO_NEXTMACRO' | translate }}
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </form>
+            </tab>
 
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox" tooltip="{{ 'SPECIFY_SEED_INFO' | translate }}" tooltip-placement="right">
-                <input type="checkbox" ng-model="sequenceSettings.specifySeed"/>{{ 'SPECIFY_SEED' | translate }}
-              </label>
-            </div>
-          </div>
+            <tab active="pageState.options.tabs.debugging.active" heading="{{ 'NAV_DEBUG' | translate }}">
+                <form name="generalOptionsForm">
 
-          <div class="control-group"
-               ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
-            <div class="controls">
-              <input class="input-small" type="number" name="seed" ng-model="sequenceSettings.seed"
-                     ng-disabled="!sequenceSettings.specifySeed" min="0" ng-required="sequenceSettings.specifySeed"
-                     tooltip="{{ 'SEED_INFO' | translate }}" tooltip-placement="right"/>
-            </div>
-          </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="checkbox" tooltip="{{ 'SPECIFY_SEED_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input ng-model="sequenceSettings.specifySeed" type="checkbox"/>{{ 'SPECIFY_SEED' |
+                                translate }}
+                            </label>
+                        </div>
+                    </div>
 
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox" tooltip="{{ 'DEBUG_INFO' | translate }}" tooltip-placement="right">
-                <input type="checkbox" name="debug" ng-model="sequenceSettings.debug"/>{{ 'DEBUG' | translate }}
-              </label>
-            </div>
-          </div>
+                    <div class="control-group"
+                         ng-class="{error: sequenceSettings.specifySeed && generalOptionsForm.seed.$invalid}">
+                        <div class="controls">
+                            <input class="input-small" min="0" name="seed" ng-disabled="!sequenceSettings.specifySeed"
+                                   ng-model="sequenceSettings.seed" ng-required="sequenceSettings.specifySeed"
+                                   tooltip="{{ 'SEED_INFO' | translate }}"
+                                   tooltip-placement="right" type="number"/>
+                        </div>
+                    </div>
 
-        </form>
-      </tab>
-            
-      <tab heading="{{ 'MONTE_CARLO_SIM' | translate }}" active="pageState.options.tabs.simulator.active">
-        <form name="simulatorOptionsForm">
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="checkbox" tooltip="{{ 'DEBUG_INFO' | translate }}" tooltip-placement="right">
+                                <input name="debug" ng-model="sequenceSettings.debug" type="checkbox"/>{{ 'DEBUG' |
+                                translate }}
+                            </label>
+                        </div>
+                    </div>
 
-          <div class="control-group" ng-class="{error: simulatorOptionsForm.maxMontecarloRuns.$invalid}">
-            <label class="control-label">{{ 'OPTIONS_MONTE_CARLO_RUNS' | translate}}</label>
+                </form>
+            </tab>
 
-            <div class="controls">
-              <input class="input-small" type="number" name="maxMontecarloRuns"
-                     ng-model="sequenceSettings.maxMontecarloRuns" min="1" max="10000" required
-                     tooltip="{{ 'MONTE_CARLO_RUNS_INFO' | translate }}"
-                     tooltip-placement="right"/>
-            </div>
-          </div>
+            <tab active="pageState.options.tabs.simulator.active" heading="{{ 'MONTE_CARLO_SIM' | translate }}">
+                <form name="simulatorOptionsForm">
 
-          <div class="control-group">
-            <div class="controls">
-              <label class="radio"
-                     tooltip="{{ 'MACRO_MODE_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="radio" name="monteCarloMode" value="macro" ng-model="sequenceSettings.monteCarloMode" ng-change="onMonteCarloModeChange()"/>
-                {{ 'MACRO_MODE' | translate }}
-              </label>
-              <br/>
-              <label class="radio"
-                     tooltip="{{ 'ADVANCED_MODE_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="radio" name="monteCarloMode" value="advanced" ng-model="sequenceSettings.monteCarloMode"/>
-                {{ 'ADVANCED_MODE' | translate }}
-              </label>
-            </div>
-          </div>
+                    <div class="control-group" ng-class="{error: simulatorOptionsForm.maxMontecarloRuns.$invalid}">
+                        <label class="control-label">{{ 'OPTIONS_MONTE_CARLO_RUNS' | translate}}</label>
 
-          <div class="control-group">
-            <div class="controls">
-              <label class="checkbox" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
-                     tooltip="{{ 'USE_CONDITIONS_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="checkbox" name="useConditions" ng-model="sequenceSettings.useConditions" ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"/>
-                {{ 'USE_CONDITIONS' | translate }}
-              </label>
-              <br/>
-              <br/>
-              <label class="control-label"ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}">
-                {{ 'CONDITIONAL_ACTION_HANDLING' | translate }}
-              </label>
-              <br/>
-              <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
-                     tooltip="{{ 'SKIP_CONDITION_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="radio" name="conditionalActionHandling"
-                       ng-model="sequenceSettings.conditionalActionHandling"
-                       value="skipUnusable"
-                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"/>
-                {{ 'SKIP_CONDITION' | translate }}
-              </label>
-              <br/>
-              <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
-                     tooltip="{{ 'REPOSITION_CONDITION_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="radio" name="conditionalActionHandling"
-                       ng-model="sequenceSettings.conditionalActionHandling"
-                       value="reposition"
-                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
-                />
-                {{ 'REPOSITION_CONDITION' | translate }}
-              </label>
-              <br/>
-              <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
-                     tooltip="{{ 'IGNORE_CONDITION_INFO' | translate }}"
-                     tooltip-placement="right">
-                <input type="radio" name="conditionalActionHandling"
-                       ng-model="sequenceSettings.conditionalActionHandling"
-                       value="ignoreUnusable"
-                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
-                />
-                {{ 'IGNORE_CONDITION' | translate }}
-              </label>
-            </div>
-          </div>
-        </form> 
-      </tab>     
+                        <div class="controls">
+                            <input class="input-small" max="10000" min="1"
+                                   name="maxMontecarloRuns" ng-model="sequenceSettings.maxMontecarloRuns" required
+                                   tooltip="{{ 'MONTE_CARLO_RUNS_INFO' | translate }}"
+                                   tooltip-placement="right"
+                                   type="number"/>
+                        </div>
+                    </div>
 
-      <tab heading="{{ 'NAV_DISPLAY' | translate }}" active="pageState.options.tabs.display.active">
-        <form name="generalOptionsForm">
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="radio"
+                                   tooltip="{{ 'MACRO_MODE_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="monteCarloMode" ng-change="onMonteCarloModeChange()"
+                                       ng-model="sequenceSettings.monteCarloMode"
+                                       type="radio" value="macro"/>
+                                {{ 'MACRO_MODE' | translate }}
+                            </label>
+                            <br/>
+                            <label class="radio"
+                                   tooltip="{{ 'ADVANCED_MODE_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="monteCarloMode" ng-model="sequenceSettings.monteCarloMode" type="radio"
+                                       value="advanced"/>
+                                {{ 'ADVANCED_MODE' | translate }}
+                            </label>
+                        </div>
+                    </div>
 
-          <div class="control-group">
-            <div class="controls">
-              <label class="radio"
-                      tooltip="{{ 'DARK_MODE_INFO' | translate }}"
-                      tooltip-placement="right">
-                <input type="radio" name="darkMode" value="dark" ng-model="sequenceSettings.darkMode"/>
-                {{ 'DARK_MODE' | translate }}
-              </label>
-              <br/>
-              <label class="radio"
-                      tooltip="{{ 'LIGHT_MODE_INFO' | translate }}"
-                      tooltip-placement="right">
-                <input type="radio" name="darkMode" value="light" ng-model="sequenceSettings.darkMode"/>
-                {{ 'LIGHT_MODE' | translate }}
-              </label>
-            </div>
-          </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="checkbox" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
+                                   tooltip="{{ 'USE_CONDITIONS_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="useConditions" ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
+                                       ng-model="sequenceSettings.useConditions"
+                                       type="checkbox"/>
+                                {{ 'USE_CONDITIONS' | translate }}
+                            </label>
+                            <br/>
+                            <br/>
+                            <label class="control-label"
+                                   ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}">
+                                {{ 'CONDITIONAL_ACTION_HANDLING' | translate }}
+                            </label>
+                            <br/>
+                            <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
+                                   tooltip="{{ 'SKIP_CONDITION_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="conditionalActionHandling"
+                                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
+                                       ng-model="sequenceSettings.conditionalActionHandling"
+                                       type="radio"
+                                       value="skipUnusable"/>
+                                {{ 'SKIP_CONDITION' | translate }}
+                            </label>
+                            <br/>
+                            <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
+                                   tooltip="{{ 'REPOSITION_CONDITION_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="conditionalActionHandling"
+                                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
+                                       ng-model="sequenceSettings.conditionalActionHandling"
+                                       type="radio"
+                                       value="reposition"
+                                />
+                                {{ 'REPOSITION_CONDITION' | translate }}
+                            </label>
+                            <br/>
+                            <label class="radio" ng-class="{disabled:sequenceSettings.monteCarloMode!=='advanced'}"
+                                   tooltip="{{ 'IGNORE_CONDITION_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="conditionalActionHandling"
+                                       ng-disabled="sequenceSettings.monteCarloMode!=='advanced'"
+                                       ng-model="sequenceSettings.conditionalActionHandling"
+                                       type="radio"
+                                       value="ignoreUnusable"
+                                />
+                                {{ 'IGNORE_CONDITION' | translate }}
+                            </label>
+                        </div>
+                    </div>
+                </form>
+            </tab>
 
-        </form>
-      </tab>
-    </tabset>
-  </form>
+            <tab active="pageState.options.tabs.display.active" heading="{{ 'NAV_DISPLAY' | translate }}">
+                <form name="generalOptionsForm">
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <label class="radio"
+                                   tooltip="{{ 'DARK_MODE_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="darkMode" ng-model="sequenceSettings.darkMode" type="radio" value="dark"/>
+                                {{ 'DARK_MODE' | translate }}
+                            </label>
+                            <br/>
+                            <label class="radio"
+                                   tooltip="{{ 'LIGHT_MODE_INFO' | translate }}"
+                                   tooltip-placement="right">
+                                <input name="darkMode" ng-model="sequenceSettings.darkMode" type="radio" value="light"/>
+                                {{ 'LIGHT_MODE' | translate }}
+                            </label>
+                        </div>
+                    </div>
+
+                </form>
+            </tab>
+        </tabset>
+    </form>
 </div>
 
 <div class="modal-footer">
-  <button class="btn btn-primary" ng-click="save()" ng-disabled="allOptionsForm.$pristine || allOptionsForm.$invalid">{{ 'SAVE' | translate }}</button>
-  <button class="btn" ng-click="cancel()">{{ 'CANCEL' | translate }}</button>
+    <button class="btn btn-primary" ng-click="save()" ng-disabled="allOptionsForm.$pristine || allOptionsForm.$invalid">
+        {{ 'SAVE' | translate }}
+    </button>
+    <button class="btn" ng-click="cancel()">{{ 'CANCEL' | translate }}</button>
 </div>

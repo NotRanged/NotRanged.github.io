@@ -1,9 +1,19 @@
+<!--This appears to be where the macro options are initialized... Learning HTML, SCSS, CSS, JS, Angular, etc with no comments is great-->
 <p>{{ 'MACRO_CTRL' | translate }}</p>
 <form>
   <div class="control-group">
     <div class="controls">
       <label class="checkbox">
         <input type="checkbox" ng-model="options.includeMacroLock"/>{{ 'MACRO_INCLUDE_LOCK' | translate }}
+      </label>
+    </div>
+  </div>
+</form>
+<form>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox" ng-model="options.includeMicon"/>Add crafter class icon to macro
       </label>
     </div>
   </div>
