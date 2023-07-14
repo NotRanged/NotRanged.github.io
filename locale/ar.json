@@ -129,6 +129,7 @@
     "FINISH_SOUND_INFO": "تأثير الصوت للعب في نهاية الماكرو الماضي ،",
     "CROSS_CLASS_INFO": "",
     "CURRENT_CLASS_INFO": "ما إذا كنت تريد إنشاء ماكرو منفصل ينشط الإجراءات المتقاطعة الضرورية.",
+    "MACRO_MICON_INFO": "Add crafter class icon to macro",
     "MACRO_LOCK_INFO": "ما إذا كنت تريد تضمين أمر قفل الماكرو في بداية كل ماكرو.",
     "NEXT_MACRO_INFO": "When enabled, this will replace the macro end soundeffect with '/nextmacro'. This command requires the Dalamud plugin 'Macro Chain' to work.",
     "SPECIFY_SEED": "تحديد البذور",

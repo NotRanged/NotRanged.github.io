@@ -198,6 +198,7 @@
   "FINISH_SOUND_INFO": "这里将会在最后一个宏指令执行完毕后自动生成提示音语句，用于提示玩家最后一个宏指令已经执行完毕。（范围：1-16；默认：16）",
   "CROSS_CLASS_INFO": "生成一个单独的宏指令来激活必要的“额外技能”。",
   "CURRENT_CLASS_INFO": "生成“额外技能激活宏”时包括当前职业的“共通技能”",
+  "MACRO_MICON_INFO": "Add crafter class icon to macro",
   "MACRO_LOCK_INFO": "在每个宏指令的开头包含“锁定宏指令（/macrolock）”，以保护该宏指令在执行完毕前不会被其他操作打断。",
   "NEXT_MACRO_INFO": "When enabled, this will replace the macro end soundeffect with '/nextmacro'. This command requires the Dalamud plugin 'Macro Chain' to work.",
   "SPECIFY_SEED": "指定种子",

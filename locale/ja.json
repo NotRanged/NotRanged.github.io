@@ -197,6 +197,7 @@
   "FINISH_SOUND_INFO": "最後のマクロの完了時に効果音を鳴らします。",
   "CROSS_CLASS_INFO": "Whether to generate a separate macro that activates the necessary cross-class actions.",
   "CURRENT_CLASS_INFO": "Whether to include the current class' actions in the cross-class action activation macro.",
+  "MACRO_MICON_INFO": "Add crafter class icon to macro",
   "MACRO_LOCK_INFO": "マクロの先頭に、マクロロックコマンドを挿入します。",
   "NEXT_MACRO_INFO": "有効にすると、マクロ終了時の効果音を '/nextmacro' に置き換えます。このコマンドを動作させるには、Dalamud pluginのMacro Chainが必要です。",
   "SPECIFY_SEED": "Specify Seed",
