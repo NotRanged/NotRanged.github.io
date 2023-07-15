@@ -12,6 +12,17 @@
     "Weaver"
   ];
 
+  var allClassesJA = [
+    "Carpenter",
+    "Alchemist",
+    "Armorer",
+    "Blacksmith",
+    "Culinarian",
+    "Goldsmith",
+    "Leatherworker",
+    "Weaver"
+  ];
+
   // Seems 'skillID' doesn't even do anything lol
   var extraActionInfo = {
     basicSynth: {                                        skillID: {"Alchemist": 100090, "Armorer": 100030, "Blacksmith": 100015, "Carpenter": 100001, "Culinarian": 100105, "Goldsmith": 100075, "Leatherworker": 100045, "Weaver": 100060} },
