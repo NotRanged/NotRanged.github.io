@@ -39,11 +39,11 @@
         return undefined;
       }
 
-      var regex = /\/ac(tion)?\s+"(.*?)"\s*<wait\.\d+>/g;
+      var regex = /\/ac(tion)?\s+(")?(.*?)\2\s*<wait\.\d+>/g;
       var newSequence = [];
       var result;
       while (result = regex.exec(macroString)) {
-        var action = result[2];
+        var action = result[3];
         for (var key in _actionsByName) {
           var value = _actionsByName[key];
           if (action === value.name || action === $translate.instant(value.name)) {
