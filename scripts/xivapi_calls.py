@@ -112,9 +112,9 @@ def save_data_to_json(recipes):
     """
     Save recipes data to a .json file
     """
-    Path(f'{PARENT_DIR}/app/data/recipedb/').mkdir(parents=True, exist_ok=True)
+    Path(f'{PARENT_DIR}/data/recipedb/').mkdir(parents=True, exist_ok=True)
     for class_job, class_recipes in recipes.items():
-        with open(f"{PARENT_DIR}/app/data/recipedb/{class_job}.json", mode="w", encoding="utf-8") as my_file:
+        with open(f"{PARENT_DIR}/data/recipedb/{class_job}.json", mode="w", encoding="utf-8") as my_file:
             json.dump(class_recipes, my_file, indent=2, sort_keys=True, ensure_ascii=False)
 
 
@@ -175,8 +175,8 @@ def save_buffs_to_file(buffs, buff_name):
     """
     Save buffs data to a .json file
     """
-    Path(f'{PARENT_DIR}/app/data/buffs').mkdir(parents=True, exist_ok=True)
-    with open(f"{PARENT_DIR}/app/data/buffs/{buff_name}.json", mode="w", encoding="utf-8") as my_file:
+    Path(f'{PARENT_DIR}/data/buffs').mkdir(parents=True, exist_ok=True)
+    with open(f"{PARENT_DIR}/data/buffs/{buff_name}.json", mode="w", encoding="utf-8") as my_file:
         json.dump(buffs, my_file, indent=2, sort_keys=True, ensure_ascii=False)
 
 
