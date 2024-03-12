@@ -138,7 +138,7 @@
         macroTime += line.time;
         macroLineCount += 1;
 
-        if (macroLineCount === MAX_LINES - 1) {
+        if (!options.singleMacro && macroLineCount === MAX_LINES - 1) {
           if (lines.length - (j + 1) > 1) {
 
             if(options.useNextMacro) {
@@ -164,7 +164,7 @@
       }
 
       if (macroLineCount > 0) {
-        if (macroLineCount < MAX_LINES) {
+        if (options.singleMacro || macroLineCount < MAX_LINES) {
           macroString += '/echo Macro #' + macroIndex + ' complete ' + soundEffect(options.finishSoundEffect, options.stepSoundEnabled) + '\n';
         }
         macroList.push({text: macroString, time: macroTime});
